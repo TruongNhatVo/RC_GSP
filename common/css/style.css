@@ -715,7 +715,7 @@ header .mainNav a {
 
 ------------------------------------*/
 /* ----------- all links style --------- */
-.all-links:after {
+.all-links .group:after {
   clear: both;
   display: block;
   content: '';
@@ -821,7 +821,8 @@ header .mainNav a {
   overflow: hidden;
   width: 56px;
   height: 23px;
-  background: url("../../images/contact/require_icon.png");
+  margin-bottom: 5px;
+  background: url("../../common/images/contact/require_icon.png");
 }
 
 .contact .input-name:after {
@@ -851,7 +852,7 @@ header .mainNav a {
 
 .contact button:before {
   content: "";
-  background: url("../../images/contact/arrow-right.png") center no-repeat;
+  background: url("../../common/images/contact/arrow-right.png") center no-repeat;
   width: 16px;
   position: absolute;
   top: calc(50% - 8px);
@@ -871,118 +872,260 @@ header .mainNav a {
   padding-right: 0;
 }
 
+
 /*------------------------------------
 
-      about.html
+      technology.html
 
 ------------------------------------*/
-/* ----------- linkAnchor style --------- */
-.linkAnchor {
+
+/*======================================
+    local01
+======================================*/
+/* ------------- link-anchor ----------------- */
+.link-anchor ul {
   padding-top: 40px;
 }
 
-.linkAnchor a {
-  font-weight: bold;
-  color: #0059B2;
+.link-anchor ul:after, .link-anchor ul:before {
+  content: '';
   display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.link-anchor ul li {
   width: 33.33%;
   float: left;
+}
+
+.link-anchor ul a {
+  width: 70%;
   text-align: center;
+  color: #0059B2;
+  padding-bottom: 10px;
+  display: inline-block;
+  border-bottom: 5px solid #0059B2;
 }
 
-.linkAnchor a:after {
-  max-width: 205px;
-  width: 100%;
-  display: block;
-  content: '';
-  margin: 0 auto;
-  margin-top: 10px;
-  height: 3px;
-  background: #0059B2;
-}
-
-.linkAnchor .container:after {
-  clear: both;
-  display: block;
-  content: '';
-  visibility: hidden;
-}
-
-.linkAnchor a:last-child {
+.link-anchor ul a.is_pc {
   color: #DDDDDD;
+  border-bottom-color: #DDDDDD;
+}
+.link-anchor ul a.is_pc:hover {
+  color: #0059B2;
+  border-bottom-color: #0059B2; 
 }
 
-.linkAnchor a:last-child:after {
-  background: #DDDDDD;
+/* ------------- #technology01 ----------------- */
+#technology01 .title-h2 {
+  padding: 90px 0 75px;
 }
 
-#about-pg .container:after,
-#about-pg .container-full:after {
-  clear: both;
-  display: block;
-  content: '';
-  visibility: hidden;
-}
-
-#about-pg h2 {
-  padding: 85px 0 80px;
-}
-
-#about-pg .infor,
-#about-pg .avatar {
-  float: left;
-}
-
-#about-pg .infor {
-  padding-right: 15px;
-  width: 55%;
-}
-
-#about-pg .infor h3 {
-  padding-bottom: 28px;
-}
-
-#about-pg .infor p {
+.local01 {
   padding-bottom: 25px;
 }
 
-#about-pg .avatar {
-  width: 45%;
-}
-
-#about-pg .avatar-img {
-  text-align: center;
-}
-
-#about-pg .content {
-  padding: 21px 30px;
-  border: 1px solid #DDDDDD;
-  border-top: 2px solid #DDDDDD;
-  border-bottom: 2px solid #DDDDDD;
-}
-
-#about-pg .content:after {
-  clear: both;
-  display: block;
+.local01:after, .local01:before {
   content: '';
+  display: block;
+  height: 0;
+  clear: both;
   visibility: hidden;
 }
 
-#about-pg .content img {
-  width: 30%;
+.local01 .description {
+  width: 55%;
+  float: left;
+  padding-right: 20px;
 }
 
-#about-pg .content div {
-  float: right;
-  width: 68%;
+.local01 .description p {
+  padding-bottom: 30px;
+}
+
+.local01 .about {
+  width: 45%;
+  float: left;
+}
+
+.local01 .thumbnail {
+  text-align: right;
+}
+
+.local01 .thumbnail-detail {
+  border: 1px solid #DFDFD0;
+  border-bottom: 2px solid #DFDFD0;
+  border-top: 2px solid #DFDFD0;
+  padding: 25px 30px;
+}
+
+.local01 .thumbnail-detail:after, .local01 .thumbnail-detail:before {
+  content: '';
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.local01 .thumbnail-detail img {
+  width: 30%;
+  float: left;
+}
+
+.local01 .thumbnail-detail .content {
+  width: 70%;
+  float: left;
+  padding-left: 15px;
+}
+
+/* ------------- #technology02 ----------------- */
+#technology02 {
+  border-top: 1px solid #DDDDDD;
+  padding-top: 75px;
+  margin-top: 50px;
+}
+
+.local02 .title-h2 {
+  padding-bottom: 77px;
+}
+
+.local02 .main-img {
+  padding-bottom: 37px;
+}
+
+.local02 .content {
+  padding: 0 10px;
+}
+
+/* ------------- all post ----------------- */
+.post .title-h3 {
+  color: #00A3D8;
+  font-size: 21px;
+  border-bottom: 1px solid #00A3D8;
+  margin: 87px 0 39px;
+  padding-bottom: 15px;
   padding-left: 10px;
 }
 
-#about-pg .content h4 {
-  padding-bottom: 10px;
+.post-group {
+  padding-left: 10px;
 }
 
-/* ---------------- tabs components ---------------- */
+.post-group .title-h4 {
+  padding: 58px 0 0;
+}
+
+.post-group .no-top {
+  padding-top: 0;
+}
+
+.post .note {
+  margin-top: 25px;
+  padding: 25px 30px;
+  border: 1px solid #000;
+}
+
+.post .note-blue {
+  color: #00A3D8;
+  border-color: #00A3D8;
+}
+
+.post .zoom-icon {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.post .group08 p {
+  padding-top: 30px;
+}
+
+.post01 .post-group p, .post01 .group08 p {
+  padding-top: 30px;
+}
+
+.post01 .post-group:after, .post01 .post-group:before, .post01 .group08:after, .post01 .group08:before {
+  content: '';
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.post01 .post-group .content, .post01 .group08 .content {
+  float: left;
+  width: 55%;
+  padding-right: 20px;
+}
+
+.post01 .post-group .zoom-image, .post01 .group08 .zoom-image {
+  float: left;
+  width: 45%;
+  position: relative;
+  padding: 20px;
+  background: #DFDFD0;
+}
+
+.post01 .post-group .more, .post01 .group08 .more {
+  padding-top: 45px;
+  width: 100%;
+}
+
+.post01 .post-group .more:after, .post01 .post-group .more:before, .post01 .group08 .more:after, .post01 .group08 .more:before {
+  content: '';
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.post02 .content {
+  background: #DFDFD0;
+  padding: 28px 44px;
+  margin-top: 48px;
+}
+
+.post02 .content:after, .post02 .content:before {
+  content: '';
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.post02 .description {
+  float: left;
+  width: 40%;
+  padding-right: 20px;
+}
+
+.post02 .list {
+  margin-top: 45px;
+}
+
+.post02 .list > ul {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.post02 .list .sub-list {
+  padding-left: 20px;
+}
+
+.post02 .thumbnail {
+  float: left;
+  width: 60%;
+  position: relative;
+}
+
+.post02 .zoom-icon {
+  bottom: 0;
+  right: 0;
+}
+
+/* -------------------------------- */
 .tabs {
   margin: 0px;
   padding: 0px;
@@ -1111,172 +1254,8 @@ header .mainNav a {
   padding-top: 15px;
 }
 
-/* ---------------- technology contents ---------------- */
-.technology h2 {
-  padding: 67px 0 68px;
-}
+/* ------------ technology.html ---------------- */
 
-.technology h3 {
-  padding: 0 0 10px 15px;
-  margin-bottom: 40px;
-  border-bottom: 1px solid #00A3D8;
-}
-
-#technology .technology_03_04 .title-sub-large {
-  padding: 30px 0;
-}
-
-#technology .technology_03_04 .box_content {
-  padding-left: 15px;
-}
-
-#technology .technology_03_04 + .note {
-  padding: 12px 30px;
-}
-
-#technology footer {
-  padding-top: 115px;
-}
-
-.technology .ico_zoom {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-}
-
-.technology .box_details_technology1 .description {
-  width: 55%;
-  float: left;
-  padding-left: 15px;
-  padding-right: 40px;
-}
-
-.technology .box_details_technology1 .description .title-sub-large {
-  padding-bottom: 20px;
-}
-
-.technology .box_details_technology1 .description p {
-  padding-top: 28px;
-}
-
-.technology .box_details_technology1 .note_01 {
-  padding-top: 45px;
-  padding-left: 15px;
-}
-
-.technology .box_details_technology1 .thumbnail {
-  width: 45%;
-  padding: 20px;
-  float: left;
-  background: #DFDFD0;
-}
-
-.technology .box_details_technology1 .content_box {
-  position: relative;
-  background: #fff;
-}
-
-.technology .box_details_technology2 {
-  padding: 28px;
-  background: #DFDFD0;
-}
-
-.technology .box_details_technology2 .description {
-  float: left;
-  padding-left: 16px;
-  padding-right: 16px;
-  width: 40%;
-}
-
-.technology .box_details_technology2 .title-h5 {
-  padding-top: 50px;
-  padding-bottom: 12px;
-}
-
-.technology .box_details_technology2 .title-h5.second {
-  padding-top: 60px;
-}
-
-.technology .box_details_technology2 .thumbnail {
-  cursor: pointer;
-  position: relative;
-  float: right;
-  width: 60%;
-}
-
-.technology .box_details_technology2 .listDetails {
-  padding-left: 20px;
-}
-
-.technology .content:after {
-  clear: both;
-  display: block;
-  content: '';
-  visibility: hidden;
-}
-
-.technology .infor {
-  padding: 0 0 0 15px;
-  width: 50%;
-  float: left;
-}
-
-.technology .infor h4 {
-  padding: 0 0 20px 0;
-}
-
-.technology .infor p {
-  padding: 0 0 20px 0;
-}
-
-.technology .infor p:last-child {
-  padding: 0;
-}
-
-.technology .img {
-  float: left;
-  width: 50%;
-  text-align: right;
-  padding-bottom: 50px;
-}
-
-.technology .img + p {
-  padding-left: 15px;
-}
-
-.technology .note,
-.technology .note-blue {
-  border: 1px solid black;
-  padding: 20px;
-  margin-top: 18px;
-  font-weight: bold;
-}
-
-.technology .note-blue {
-  border: 1px solid #10A3C0;
-  color: #10A3C0;
-}
-
-.technology .groupTitle h3 {
-  margin: 65px 0 0;
-  padding-bottom: 10px;
-}
-
-.technology .groupTitle .txt-large {
-  font-weight: bold;
-}
-
-.technology .groupTitle:last-child h4 {
-  padding: 20px 0;
-}
-
-.target {
-  padding: 40px 0 0 15px;
-}
-
-.target p {
-  padding: 25px 0 20px;
-}
 
 /*======================================
         Footer
@@ -1292,7 +1271,7 @@ footer .detail {
   border: 2px solid #00A3D8;
   background: white;
   text-align: center;
-  padding: 48px 0 25px;
+  padding: 25px 0 25px;
 }
 
 footer .detail h2 {
@@ -1303,10 +1282,13 @@ footer .detail .title-h3-footer,
 footer .detail .title-h3-infor {
   padding-bottom: 20px;
 }
-
+footer a {
+  color: #00A3D8;
+}
 footer .detail p {
   padding-bottom: 20px;
   font-weight: bold;
+  line-height: 1.6;
 }
 
 footer .detail a:before {
@@ -1348,6 +1330,9 @@ footer .group .btn-small:nth-child(2) {
 }
 
 /* ------------ footer faq.html,privacy.html -------------*/
+#technology footer .detail {
+  #technology footer .detail
+}
 #privacy footer .detail a,
 #technology footer .detail a,
 #links footer .detail a,
@@ -1374,7 +1359,7 @@ footer .group .btn-small:nth-child(2) {
   }
 }
 
-/*-----------------------
+/*-----------------------------------------
         Responsive for device < 780px
 -----------------------------------------*/
 @media screen and (max-width: 780px) {
@@ -1602,7 +1587,7 @@ footer .group .btn-small:nth-child(2) {
     padding: 0;
   }
   .local01 .topic .itemsTopic {
-  	font-size: 3.2vw;
+    font-size: 3.2vw;
   }
   .local01 .topic .itemsTopic.new:before {
     left: 0;
@@ -1632,7 +1617,7 @@ footer .group .btn-small:nth-child(2) {
     padding: 32px 0 28px;
   }
   .present .sign {
-  	font-size: 3.2vw;
+    font-size: 3.2vw;
   }
   .present .content {
     width: 100%;
@@ -1718,7 +1703,7 @@ footer .group .btn-small:nth-child(2) {
     padding: 0;
   }
   #company .list-content p:nth-child(odd) {
-  	width: 17.8vw;
+    width: 17.8vw;
   }
   #company h2 {
     padding: 41px 0;
@@ -1809,12 +1794,12 @@ footer .group .btn-small:nth-child(2) {
   .all-links .logo {
     padding-left: 0;
   }
-  .all-links .content {
+  .all-links .group .content {
     border-bottom: 1px solid #EEEEEE;
     padding: 10px 0 30px;
     margin-bottom: 30px;
   }
-  .all-links .content:last-child {
+  .all-links .group:last-child .content {
     padding-bottom: 10px;
     border-bottom: 0;
   }
@@ -1879,41 +1864,36 @@ footer .group .btn-small:nth-child(2) {
     margin: 30px auto 0 auto;
     background: #00B9FF;
   }
-  /*------------------------------------
-
-      about.html
-
-  ------------------------------------*/
-  /* ----------- linkAnchor style --------- */
-  #about-pg {
-    padding-top: 70px;
+  /* ---------------------------------------
+      Technology.html
+  --------------------------------------- */
+  /* ----------------------------------
+    Technology.html
+  ---------------------------------- */
+  .full-content, .post .title-h3, .post .title-h4 {
+    margin: 0 -4vw;
   }
-  #about-pg h2 {
-    padding: 5.6vw 0 5.2vw;
+  /* ------------- link-anchor ----------------- */
+  .link-anchor ul {
+    padding-top: 0;
   }
-  #about-pg .infor,
-  #about-pg .avatar {
-    float: none;
+  .link-anchor ul li {
+    width: 50%;
+  }
+  .link-anchor ul a {
+    padding: 15px 0;
+    font-size: 3.1vw;
     width: 100%;
+    border-bottom: 0;
+    border: 1px solid #0059B2;
   }
-  #about-pg .infor {
-    padding-right: 0;
+  .link-anchor ul a.is_pc {
+    display: none;
   }
-  #about-pg .avatar {
-    width: 100%;
-  }
-  #about-pg .content {
-    padding: 15px;
-  }
-  #about-pg .content img {
-    float: left;
-    min-width: 30%;
-  }
-  #about-pg .content div {
-    float: right;
-    width: 65%;
-  }
-  /* ---------------- technology components ---------------- */
+  /* ------------- #technology01 ----------------- */
+
+
+  /* -------- tabs -------- */
   .tabs li h3 {
     font-size: 2.8vw;
   }
@@ -1963,119 +1943,145 @@ footer .group .btn-small:nth-child(2) {
     display: initial;
     margin-left: 0 !important;
   }
-  .linkAnchor {
+  /* ---------------- technology components ---------------- */
+  #technology01 .title-h2 {
+    padding: 65px 0 40px;
+  }
+  #technology01 .local01 {
     padding-top: 0;
   }
-  .linkAnchor .container {
+  #technology01 .about {
+    border-top: 0;
+  }
+  #technology01 .about p {
     padding: 0;
   }
-  .linkAnchor a {
-    font-size: 3vw;
-    width: 50%;
-    border: 1px solid #0059B2;
-    padding: 3vw 1vw;
+  #technology01 .tabs-content {
+    border: 0;
+    border-bottom: 1px solid #0059B2;
   }
-  .linkAnchor a:after {
-    display: none;
-  }
-  .technology .title-h3-infor {
-    font-size: 4.6vw;
-    text-align: center;
-    margin-left: -4.6% !important;
-    margin-right: -4.6% !important;
-  }
-  .technology .technology_03_02 .title-h3-infor {
-    text-align: center;
-    margin-bottom: 0;
-  }
-  .technology .title-sub-large {
-    background: #ddd;
-    padding: 5.5vw !important;
-  }
-  .technology .box_details_technology1 .thumbnail {
-    float: none;
+  .local01 .description {
     width: 100%;
+    float: none;
+    padding-right: 0;
   }
-  .technology .box_details_technology1 .description {
-    padding: 0;
+  .local01 .description p {
+    padding-bottom: 30px;
+  }
+  .local01 .title-h3 {
+    padding-bottom: 20px;
+  }
+  .local01 .about {
     width: 100%;
     float: none;
   }
-  .technology .box_details_technology1 .note_01 {
-    padding: 0;
+  .local01 .thumbnail {
+    text-align: center;
   }
-  .technology .box_details_technology2 {
-    padding: 18px;
-    padding-bottom: 80px;
-    margin-top: 30px;
+  .local01 .thumbnail-detail {
+    padding: 20px 15px;
+    font-size: 3.1vw;
   }
-  .technology .box_details_technology2 .title-h5 {
-    font-size: 3.5vw;
-    padding-top: 0 !important;
+  .local01 .thumbnail-detail .title-h4 {
+    margin-bottom: 10px;
   }
-  .technology .box_details_technology2 .listDetails {
-    font-size: 2.7vw;
+  /* ------------- #technology02 ----------------- */
+  #technology02 {
+    border-top: 0;
+    padding: 34px 0 0;
+    margin-top: 0;
+  }
+  #technology02 .to-zoom {
+    width: 100%;
+  }
+  .local02 .title-h2 {
+    padding-bottom: 34px;
+  }
+  .local02 .main-img {
+    padding-bottom: 37px;
+  }
+  .local02 .content {
+    padding: 0 10px;
+  }
+  /* ------------- all post ----------------- */
+  .post .title-h3 {
+    text-align: center;
+    padding-left: 0;
+    padding: 25px 0;
+    font-size: 4.3vw;
+  }
+  .post .title-h4 {
+    padding: 20px 5vw;
+    background: #DDDDDD;
+    font-size: 3.6vw;
+  }
+  .post .post-group {
     padding-left: 0;
   }
-  .technology .box_details_technology2 .description {
+  .post .post-group p {
+    padding-bottom: 20px;
+  }
+  .post .post-group p, .post .group08 p {
+    padding-top: 30px;
+  }
+  .post .post-group .content, .post .group08 .content {
     float: none;
     width: 100%;
-    padding: 0;
-    margin-bottom: 25px;
+    padding-right: 0;
   }
-  .technology .box_details_technology2 .description:after {
-    content: "";
-    display: block;
-    clear: both;
-  }
-  .technology .box_details_technology2 .description .descript_items {
+  .post .post-group .zoom-image, .post .group08 .zoom-image {
+    margin-top: 20px;
     float: left;
-    width: 50%;
+    width: 100%;
+    position: relative;
+    padding: 20px;
+    background: #DFDFD0;
   }
-  .technology .box_details_technology2 .thumbnail {
+  .post .note {
+    padding: 15px 10px;
+    margin: 25px 0;
+  }
+  .post01 .title-h3 {
+    border-top: 1px solid #00A3D8;
+    margin-top: 20px;
+  }
+  .post02 .content {
+    margin-top: 0;
+    padding: 0 20px;
+    padding-bottom: 80px;
+    margin-bottom: 30px;
+  }
+  .post02 .description {
     float: none;
     width: 100%;
+    padding-right: 0;
+    margin-bottom: 20px;
   }
-  .technology .note {
-    padding: 16px 12px;
+  .post02 .description:after, .post02 .description:before {
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
   }
-  .technology .moveSP {
-    padding-bottom: 25px;
+  .post02 .list {
+    margin-right: 0;
+    width: 50%;
+    float: left;
   }
-  .technology .infor,
-  .technology .img {
+  .post02 .list > ul {
+    padding-top: 10px;
+    padding-left: 0;
+    font-size: 3.1vw;
+  }
+  .post02 .list .sub-list {
+    padding-left: 10px;
+  }
+  .post02 .thumbnail {
     width: 100%;
   }
-  .technology .img {
-    padding: 20px 0;
-    text-align: center;
-  }
-  .technology .img + p {
-    padding-left: 0;
-  }
-  .technology h3,
-  .technology .infor {
-    padding: 0;
-  }
-  .technology h3 {
-    margin: 30px 0 20px;
-    padding-bottom: 10px;
-  }
-  .technology .groupTitle h4,
-  .technology .groupTitle h3,
-  .technology .groupTitle p {
-    padding-left: 0;
-  }
-  .technology .title-h3-infor {
-    border-top: 1px solid #00A3D8;
-    border-bottom: 1px solid #00A3D8;
-    padding: 20px !important;
-  }
-  .technology .groupTitle p {
-    padding: 10px;
-  }
-  .technology .target {
-    padding: 20px 0 10px 0;
+  .post03 p {
+    padding-bottom: 0;
   }
   /*======================================
           Footer
@@ -2172,6 +2178,7 @@ footer .group .btn-small:nth-child(2) {
     background-position: left top;
   }
 }
+/* --------- technology.html ----------- */
 
 @media screen and (max-width: 460px) {
   footer {

@@ -81,7 +81,7 @@ $(document).ready(function() {
                 $(this).attr("src", $(this).attr("src").replace('_pc', '_sp'));
             });
             // Move text SP
-            $('.moveSP').insertAfter('.box_details_technology1 .description');
+            $('.moveSp').insertAfter('.abc');
             $('.moveSP_02').insertAfter('.technology_03_03 .get_move_02');
 
         }
