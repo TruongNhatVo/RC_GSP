@@ -19,7 +19,6 @@
         wp_enqueue_style( 'helper', THEME_URL . '/common/css/helper.css' );
         wp_enqueue_style( 'magnific-popup-css', THEME_URL . '/common/css/magnific-popup.min.css' );
         wp_enqueue_style( 'style', THEME_URL . '/common/css/style.css' );
-        wp_enqueue_style( 'style2', THEME_URL . '/common/css/style2.css' );
 
 	    /* registry js */
 	    wp_enqueue_script( 'jquery-min', THEME_URL . '/common/js/jquery-3.2.1.min.js', false, true );

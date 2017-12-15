@@ -118,6 +118,7 @@ get_header(); ?>
                     </div>
                 </div>
                 <div id="tab-2" class="tab-content">
+                    <h4 class="title-h4 is_sp">経　歴：</h4>
                     <ul class="time-list">
                         <li>
                             <p class="year">1974年：</p>
@@ -218,8 +219,11 @@ get_header(); ?>
                         </p>
                     </div>
                     <div class="zoom-image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/common/images/technology/img_struture01.png" alt="" class="to-zoom">
+                        <a class="zoom" href="#gallery02"><img src="<?php echo get_template_directory_uri(); ?>/common/images/technology/img_struture01.png" alt="" class="to-zoom"></a>
                         <img src="<?php echo get_template_directory_uri(); ?>/common/images/technology/ico_zoom.png" alt="" class="zoom-icon">
+                    </div>
+                    <div id="gallery02" class="hidden">
+                        <a href="<?php echo get_template_directory_uri(); ?>/common/images/technology/img_struture01.png"></a>
                     </div>
                     <div class="more">
                         <p>抗体ライブラリーの特徴は、生体に害を引き起こす可能性がある抗原・抗体（自己抗体など）にも対応可能なところです。スクリーングにより抗体遺伝子を入手できるので、各種組換え抗体の産生が可能です。</p>
@@ -275,8 +279,11 @@ get_header(); ?>
                         </div>
                     </div>
                     <div class="thumbnail">
-                        <img src="<?php echo get_template_directory_uri(); ?>/common/images/technology/img_struture02.png" alt="" class="to-zoom">
+                        <a href="#gallery" class="zoom"><img src="<?php echo get_template_directory_uri(); ?>/common/images/technology/img_struture02.png" alt="" class="to-zoom"></a>
                         <img src="<?php echo get_template_directory_uri(); ?>/common/images/technology/ico_zoom.png" alt="" class="zoom-icon">
+                    </div>
+                    <div id="gallery" class="hidden">
+                        <a href="<?php echo get_template_directory_uri(); ?>/common/images/technology/img_struture02.png"></a>
                     </div>
                 </div>
                 <div class="post-group group04">

@@ -52,7 +52,7 @@ $(document).ready(function() {
     });
 
     // Magnific Popup
-    $('a.btn-gallery').click(function(event) {
+    $('.zoom').click(function(event) {
         event.preventDefault();
 
         var gallery = $(this).attr('href');
