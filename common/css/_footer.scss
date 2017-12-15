@@ -1,0 +1,95 @@
+
+/*======================================
+        Footer
+======================================*/
+
+footer {
+    background: url("../../common/images/bg_footer.png") left 63% no-repeat;
+    background-size: cover;
+    padding-top: 70px;
+    padding-bottom: 14%;
+}
+
+footer .detail {
+    border: 2px solid #00A3D8;
+    background: white;
+    text-align: center;
+    padding: 48px 0 25px;
+}
+
+footer .detail h2 {
+    color: #00A3D8;
+}
+
+footer .detail .title-h3-footer,
+footer .detail .title-h3-infor {
+    padding-bottom: 20px;
+}
+
+footer .detail p {
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+footer .detail a:before {
+    position: relative;
+    top: 3px;
+    left: 0;
+    content: url("../../images/icon_01.png");
+    margin-right: 10px;
+}
+
+footer .group {
+    margin-top: 7%;
+}
+
+footer .group img {
+    padding-bottom: 15px;
+}
+
+footer .group .btn-small {
+    background: #10A3C0;
+}
+
+footer .group .btn-small:nth-child(1) {
+    width: 174px;
+    margin-left: 95px;
+}
+
+footer .group .btn-small:nth-child(2) {
+    width: 80px;
+}
+
+.copyright {
+    background: #10A3C0;
+}
+
+.copyright p {
+    padding: 47px 0 42px;
+    color: white;
+}
+
+
+/* ------------ footer faq.html,privacy.html -------------*/
+
+#privacy footer .detail a,
+#technology footer .detail a,
+#links footer .detail a,
+#faq .detail a {
+    width: 179px;
+    background: #00A3D8;
+}
+
+#privacy footer .detail a:before,
+#technology footer .detail a:before,
+#links footer .detail a:before,
+#faq .detail a:before {
+    content: '';
+}
+
+
+/* ------------ footer contact.html -------------*/
+
+#contact footer {
+    background-position: left 44%;
+}

@@ -1,0 +1,851 @@
+
+@media screen and (min-width: 780px) {
+    nav {
+        display: block !important;
+    }
+}
+/*-----------------------
+        Responsive for device < 780px
+-----------------------------------------*/
+
+@media screen and (max-width: 780px) {
+    .fullContent {
+        margin-left: -4.5%!important;
+        margin-right: -4.5%!important;
+    }
+    .wrapper {
+        min-width: inherit;
+    }
+    .is_pc {
+        display: none;
+    }
+    .is_sp {
+        display: inherit;
+    }
+    /*------------------- Components_SP -------------------*/
+    p {
+        font-size: 3.5vw;
+    }
+    .container {
+        padding: 0 4%;
+    }
+    .container-full {
+        padding: 0;
+    }
+    /*------------------- Typography_SP -------------------*/
+    .title-h2,
+    .title-h2-black,
+    .title-h2-breadcumb {
+        font-size: 5.3vw;
+    }
+    .title-h2-black {
+        font-size: 5.3vw;
+    }
+    .title-h2-breadcumb {
+        font-size: 5.3vw;
+    }
+    .title-h3,
+    .title-h3-large,
+    .title-h3-blue,
+    .title-h3-sub {
+        font-size: 4.1vw;
+    }
+    .title-h3-large {
+        font-size: 21px;
+    }
+    .title-h3-blue {
+        font-size: 16px;
+    }
+    .title-h3-footer,
+    .title-h3-infor {
+        font-size: 3.7vw;
+        color: #00A3D8;
+    }
+    .txt,
+    .txt-large,
+    .txt-small,
+    .txt-label {
+        font-size: 4.1vw;
+    }
+    .txt-small {
+        font-size: 3.1vw;
+    }
+    .title-sub,
+    .title-sub-large {
+        font-size: 3.7vw;
+    }
+    .links {
+        font-size: 12px;
+        color: #0059B2;
+    }
+    .links-small {
+        font-size: 12px;
+    }
+    .btn,
+    .btn-small,
+    .btn-lang {
+        font-size: 12px;
+        text-align: center;
+        display: inline-block;
+        color: white;
+        height: 32px;
+        line-height: 28px;
+    }
+    .btn-small {
+        height: 22px;
+        line-height: 22px;
+        font-size: 10px;
+    }
+    .btn-lang {
+        height: 40px;
+        line-height: 40px;
+    }
+    /*======================================
+          Header
+    ======================================*/
+    header {
+        /* -- transform button -- */
+    }
+    header .logo {
+        width: 225px;
+        padding: 10px 0 10px 15px;
+    }
+    header .btnSp {
+        width: 29px;
+        height: 20px;
+        position: relative;
+        -webkit-transition: .5s ease-in-out;
+        -o-transition: .5s ease-in-out;
+        transition: .5s ease-in-out;
+        cursor: pointer;
+        position: absolute;
+        top: 18px;
+        right: 15px;
+    }
+    header .btnSp.active span:nth-child(1) {
+        top: 7px;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+    header .btnSp.active span:nth-child(2) {
+        opacity: 0;
+    }
+    header .btnSp.active span:nth-child(3) {
+        top: 7px;
+        -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+    header .btnSp span {
+        display: block;
+        position: absolute;
+        height: 5px;
+        width: 100%;
+        background: #00A3D8;
+        opacity: 1;
+        left: 0;
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: all .25s ease-in-out;
+        -o-transition: all .25s ease-in-out;
+        transition: all .25s ease-in-out;
+    }
+    header .btnSp span:nth-child(1) {
+        top: 0;
+    }
+    header .btnSp span:nth-child(2) {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    header .btnSp span:nth-child(3) {
+        bottom: 0;
+    }
+    header nav {
+        width: 100%;
+        display: none;
+        text-align: center;
+        position: fixed;
+        top: 50px;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background: white;
+        z-index: 100;
+        overflow-y: auto;
+    }
+    header .mainNav a {
+        font-size: 16px;
+    }
+    header .mainNav li {
+        padding-top: 45px;
+        display: block;
+        margin-right: 0;
+    }
+    header .mainNav li:last-child {
+        display: block;
+        padding: 45px 10px 15px 10px;
+    }
+    header .mainNav li:last-child:after {
+        clear: both;
+        display: block;
+        content: '';
+        visibility: hidden;
+    }
+    header .mainNav .btn-lang {
+        width: 49%;
+        background: #0059B2;
+        color: white;
+    }
+    header .mainNav .btn-lang:first-child {
+        float: left;
+    }
+    header .mainNav .btn-lang:last-child {
+        float: right;
+    }
+    /*======================================
+      breabcumb
+  ======================================*/
+    .breadcumb {
+        height: 60px;
+        line-height: 60px;
+    }
+    /*------------------------------------
+
+            index.html
+
+  ------------------------------------*/
+    /* ----------- slide style --------- */
+    .slide .btn {
+        width: 121px;
+    }
+    .slide .title {
+        margin: auto;
+        width: 75%;
+        top: 15%;
+    }
+    /* ----------- local01 style --------- */
+    .local01 {
+        padding-top: 30px;
+    }
+    .local01 .topic {
+        padding: 0;
+    }
+    .local01 .topic .itemsTopic.new:before {
+        left: 0;
+        top: 0;
+        position: relative;
+    }
+    .local01 .topic .itemsTopic>* {
+        float: none;
+    }
+    .local01 .topic .btn,
+    .local01 .topic .btn-small,
+    .local01 .topic .btn-lang {
+        padding: 10px 0 20px;
+        line-height: 1;
+        width: 27%;
+        position: absolute;
+        top: 0;
+        right: 20px;
+    }
+    .local01 .time {
+        width: 100%;
+    }
+    .local01 .time p {
+        display: block;
+        font-size: 10px;
+        padding-bottom: 5px;
+    }
+    /* ----------- present style --------- */
+    .present h2 {
+        padding: 32px 0 28px;
+    }
+    .present .content {
+        width: 100%;
+        padding: 0 15px;
+    }
+    .present .avatar {
+        position: static;
+        width: 60%;
+    }
+    /* ----------- technology1 style --------- */
+    #technology1 .container:after {
+        clear: both;
+        display: block;
+        content: '';
+        visibility: hidden;
+    }
+    #technology1 h2 {
+        padding: 45px 0 40px;
+    }
+    #technology1 .technology1Bg .container {
+        padding-bottom: 0;
+    }
+    #technology1 .content {
+        width: 100%;
+        padding-left: 0;
+    }
+    #technology1 .btn {
+        width: 120px;
+        position: absolute;
+        bottom: 15%;
+        left: 25px;
+    }
+    #technology1 p {
+        padding-bottom: 0;
+    }
+    #technology1 .avatar {
+        float: right;
+        width: 50%;
+        position: initial;
+        text-align: right;
+    }
+    /* ----------- technology2 style --------- */
+    #technology2 {
+        padding: 35px 0 50px;
+    }
+    #technology2 li {
+        padding: 15px;
+        border: 0;
+    }
+    #technology2 li:hover {
+        border: 0;
+    }
+    #technology2 .thumbnail,
+    #technology2 .infor {
+        width: 100%;
+    }
+    #technology2 .thumbnail img,
+    #technology2 .infor img {
+        width: inherit;
+    }
+    #technology2 .infor {
+        padding-left: 0;
+    }
+    #technology2 .infor h3 {
+        text-align: center;
+        padding-top: 15px;
+    }
+    #technology2 .infor .txt+p {
+        text-align: center;
+        padding: 10px 0 20px;
+    }
+    #technology2 .infor .btn {
+        width: 60%;
+        line-height: inherit;
+        padding: 10px 0;
+        height: inherit;
+        font-size: 16px;
+    }
+    /* ----------- company style --------- */
+    #company {
+        padding-bottom: 30px;
+    }
+    #company .container {
+        padding: 0;
+    }
+    #company h2 {
+        padding: 41px 0;
+    }
+    #company .infor {
+        width: 100%;
+        padding-left: 15px;
+    }
+    #company h3 {
+        padding: 15px 0 10px;
+    }
+    /* ----------- access style --------- */
+    .access iframe {
+        height: 205px;
+    }
+    .access .infor {
+        float: none;
+        width: 100%;
+        padding-left: 5px;
+    }
+    .access .infor li {
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
+    .access .infor li:before {
+        width: 5px;
+        height: 5px;
+    }
+    .access .infor :nth-child(2) h3 {
+        padding: 25px 0 10px;
+    }
+    /*------------------------------------
+
+            faq.html
+
+  ------------------------------------*/
+    /* ----------- faq style --------- */
+    .faq .txt-breadcumb {
+        padding: 37px 0 30px;
+    }
+    .faq .group {
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+    .faq h3,
+    .faq p {
+        position: relative;
+        padding-left: 35px;
+    }
+    .faq p {
+        padding-left: 35px;
+    }
+    .faq .icon {
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-weight: bold;
+    }
+    /*------------------------------------
+
+            privacy.html
+
+  ------------------------------------*/
+    /* ----------- privacy style --------- */
+    .privacy .title-h2 {
+        text-align: center;
+        padding: 28px 0;
+    }
+    .privacy .title-h2+p {
+        padding-bottom: 25px;
+    }
+    .privacy .content p {
+        padding-bottom: 18px;
+    }
+    /*------------------------------------
+
+            links.html
+
+  ------------------------------------*/
+    /* ----------- all links style --------- */
+    .all-links .txt {
+        padding: 38px 0;
+    }
+    .all-links .logo,
+    .all-links .content {
+        width: 100%;
+    }
+    .all-links .logo {
+        padding-left: 0;
+    }
+    .all-links .content {
+        border-bottom: 1px solid #EEEEEE;
+        padding: 10px 0 30px;
+        margin-bottom: 30px;
+    }
+    .all-links .content:last-child {
+        padding-bottom: 10px;
+        border-bottom: 0;
+    }
+    /* ----------- about style --------- */
+    .about {
+        border-top: 1px solid #10A3C0;
+    }
+    .about h2 {
+        padding: 34px 0;
+    }
+    .about p {
+        padding: 0 15px;
+    }
+    /*------------------------------------
+
+            contact.html
+
+  ------------------------------------*/
+    /* ----------- contact style --------- */
+    .contact {
+        padding-top: 40px;
+    }
+    .contact .content,
+    .contact .form {
+        width: 100%;
+    }
+    .contact .content {
+        margin-bottom: 30px;
+    }
+    .contact input[type="text"],
+    .contact select,
+    .contact textarea {
+        width: 100%;
+    }
+    .contact input[type="text"],
+    .contact select {
+        height: 25px;
+    }
+    .contact .checkbox-group .input {
+        font-size: 12px;
+    }
+    .contact .checkbox-group span {
+        padding-right: 3%;
+        font-size: 10px;
+    }
+    .contact .checkbox-group .last {
+        padding-right: 0;
+    }
+    .contact button {
+        display: block;
+        margin: auto;
+        width: 180px;
+        height: 42px;
+        line-height: 38px;
+    }
+    .contact button:before {
+        content: '';
+        background: none;
+    }
+    .contact input[type="submit"] {
+        display: block;
+        margin: 30px auto 0 auto;
+        background: #00B9FF;
+    }
+    /*------------------------------------
+
+      about.html
+
+  ------------------------------------*/
+    /* ----------- linkAnchor style --------- */
+    #about-pg {
+        padding-top: 70px;
+        h2 {
+            padding: 5.6vw 0 5.2vw;
+        }
+    }
+    #about-pg .infor,
+    #about-pg .avatar {
+        float: none;
+        width: 100%;
+    }
+    #about-pg .infor {
+        padding-right: 0;
+    }
+    #about-pg .avatar {
+        width: 100%;
+    }
+    #about-pg .content {
+        padding: 15px;
+    }
+    #about-pg .content img {
+        float: left;
+        min-width: 30%;
+    }
+    #about-pg .content div {
+        float: right;
+        width: 65%;
+    }
+    /* ---------------- technology components ---------------- */
+    .tabs li h3 {
+        font-size: 2.8vw;
+    }
+    .tab-content {
+        font-size: 14px;
+        padding: 15px;
+    }
+    .tab-content .time {
+        width: 100%;
+    }
+    .technology h2 {
+        padding: 35px 0 40px;
+    }
+    #technology {
+        .linkAnchor {
+            .is_pc {
+                display: none;
+            }
+        }
+    }
+
+    #technology {
+        .all-tabs {
+            .container {
+                padding: 0;
+            }
+            .tabs-content{
+                border: 0;
+                border-bottom: 1px solid $base-link;
+            }
+        }
+        .technology_03_03 {
+            .title-sub-large {
+                padding: 35px 0 45px 15px;
+            }
+            .note {
+                padding: 10px;
+            }
+        }
+        .technology_03_04 {
+            .box_content {
+                padding-left: 0;
+            }
+        }
+    }
+    .tabs {
+        li  {
+            border-top: 1px solid $base-link;
+            &:first-child {
+                border-right: 1px solid #fff;
+            }
+            h3 {
+                position: relative;
+                &:after {
+                    border-width: 1.4vw 1.4vw 0 1.4vw!important;
+                    position: absolute;
+                    top: calc(50% - 0.7vw);
+                    right: -8px;
+                    display: initial;
+                    margin-left: 0!important;
+                }
+            }
+        }
+    }
+    .linkAnchor {
+        padding-top: 0;
+        .container {
+            padding: 0;
+        }
+        a {
+            font-size: 3vw;
+            width: 50%;
+            border: 1px solid $base-link;
+            padding: 3vw 1vw;
+            &:after {
+                display: none;
+            }
+        }
+    }
+    .technology {
+        .title-h3-infor {
+            font-size: 4.6vw;
+            text-align: center;
+            margin-left: -4.6%!important;
+            margin-right: -4.6%!important;
+        }
+        .technology_03_02 {
+            .title-h3-infor {
+                text-align: center;
+                margin-bottom: 0;
+            }
+        }
+
+        .title-sub-large {
+            background: #ddd;
+            padding: 5.5vw!important;
+            @extend .fullContent;
+        }
+        .box_details_technology1 {
+            .thumbnail {
+                float: none;
+                width: 100%;
+            }
+            .description {
+                padding: 0;
+                width: 100%;
+                float: none;
+            }
+            .note_01 {
+                padding: 0;
+            }
+        }
+        .box_details_technology2 {
+            padding: 18px;
+            padding-bottom: 80px;
+            margin-top: 30px;
+            .title-h5 {
+                font-size: 3.5vw;
+                padding-top: 0!important;
+            }
+            .listDetails {
+                font-size: 2.7vw;
+                padding-left: 0;
+            }
+            .description {
+                float: none;
+                width: 100%;
+                padding: 0;
+                margin-bottom: 25px;
+                &:after {
+                    content: "";
+                    display: block;
+                    clear: both;
+                }
+                .descript_items {
+                    float: left;
+                    width: 50%;
+                }
+            }
+            .thumbnail {
+                float: none;
+                width: 100%;
+            }
+        }
+        .note {
+            padding: 16px 12px;
+        }
+        .moveSP {
+            padding-bottom: 25px;
+        }
+    }
+    .technology .infor,
+    .technology .img {
+        width: 100%;
+    }
+    .technology .img {
+        padding: 20px 0;
+        text-align: center;
+    }
+    .technology .img+p {
+        padding-left: 0;
+    }
+    .technology h3,
+    .technology .infor {
+        padding: 0;
+    }
+    .technology h3 {
+        margin: 30px 0 20px;
+        padding-bottom: 10px;
+    }
+    .technology .groupTitle h4,
+    .technology .groupTitle h3,
+    .technology .groupTitle p {
+        padding-left: 0;
+    }
+    .technology .title-h3-infor {
+        border-top: 1px solid $base-blue;
+        border-bottom: 1px solid $base-blue;
+        padding: 20px!important;
+    }
+    .technology .groupTitle p {
+        padding: 10px 0;
+    }
+    .technology .target {
+        padding: 20px 0 10px 0;
+    }
+    /*======================================
+          Footer
+  ======================================*/
+    footer {
+        min-height: 216px;
+        background-size: contain;
+        background-position: left 45%;
+        padding-bottom: 0;
+    }
+    footer .container {
+        padding: 0;
+    }
+    footer .detail {
+        margin: 0 20px;
+        font-size: 12px;
+    }
+    footer .detail p {
+        padding: 0 20px 15px 20px;
+    }
+    footer .group {
+        width: 100%;
+        background: white;
+        padding: 5px 15px;
+        margin: 25% 0 0;
+    }
+    footer .group:after {
+        clear: both;
+        display: block;
+        content: '';
+        visibility: hidden;
+    }
+    footer .group img {
+        width: 64%;
+    }
+    footer .groupBtn {
+        width: 34%;
+        float: right;
+    }
+    footer .group .btn-small {
+        height: 30px;
+        line-height: 26px;
+    }
+    footer .group .btn-small:nth-child(1) {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 5px;
+    }
+    footer .group .btn-small:nth-child(2) {
+        width: 100%;
+    }
+    .copyright p {
+        padding: 8px 0;
+    }
+    /* ------------ footer faq.html -------------*/
+    #faq footer .container
+    #privacy footer .container {
+        border-top: 1px solid #00A3D8;
+    }
+    #faq footer .detail,
+    #privacy footer .detail {
+        background: transparent;
+        border: 0;
+    }
+    #faq footer .detail a,
+    #privacy footer .detail a {
+        color: white;
+        width: 179px;
+        background: #00A3D8;
+    }
+    #faq footer .detail a:before,
+    #privacy footer .detail a:before {
+        content: '';
+    }
+    #privacy footer {
+        background-position: left 70%;
+    }
+    #privacy footer .container {
+        border-top: 1px solid transparent;
+    }
+    /* ------------ footer about.html -------------*/
+    #technology footer {
+        background-position: left 65%;
+    }
+    #faq footer,
+    #links footer {
+        background-position: left 60%;
+    }
+    /* ------------ footer contact.html -------------*/
+    #ct-ft {
+        background-position: left top;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    footer {
+        background-position: left 55%;
+    }
+    footer .group img {
+        width: 100%;
+    }
+    footer .groupBtn {
+        width: 100%;
+        float: none;
+    }
+    footer .groupBtn:after {
+        clear: both;
+        display: block;
+        content: '';
+        visibility: hidden;
+    }
+    footer .group .btn-small:nth-child(1) {
+        float: left;
+        width: 49%;
+    }
+    footer .group .btn-small:nth-child(2) {
+        width: 49%;
+        float: right;
+    }
+}

@@ -1,0 +1,1034 @@
+@import "variable";
+@import "module";
+@import "header";
+/*------------------------------------
+
+      index.html
+
+------------------------------------*/
+
+
+/*======================================
+    breabcumb
+======================================*/
+
+.breadcumb {
+    background: url("../images/bg_breadcrumbss_bar.png") center no-repeat, #99CCFF;
+    height: 116px;
+    line-height: 116px;
+}
+
+
+/* ----------- slide style --------- */
+
+.slide {
+    background: #F0F0E1;
+}
+
+.slide .title {
+    position: absolute;
+    text-align: center;
+    top: calc(50% - 54px);
+    left: 0;
+    right: 0;
+}
+
+.slide .btn {
+    background: #0059B2;
+    width: 171px;
+}
+
+.slide .btn {
+    position: absolute;
+    bottom: 12%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+
+/* ----------- local01 style --------- */
+
+.local01 {
+    padding-bottom: 30px;
+}
+
+.local01 h2 {
+    padding: 40px 0 80px;
+}
+
+.local01 .topic {
+    padding: 0 30px 0 130px;
+    margin: auto;
+}
+
+.local01 .topic .itemsTopic {
+    position: relative;
+    display: block;
+    color: #525252;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.local01 .topic .itemsTopic:after {
+    clear: both;
+    display: block;
+    content: '';
+    visibility: hidden;
+}
+
+.local01 .topic .itemsTopic.new:before {
+    position: absolute;
+    content: "新着情報";
+    color: #00A3D8;
+    font-weight: bold;
+    font-size: 18px;
+    left: -100px;
+    top: -2px;
+}
+
+.local01 .topic .itemsTopic>* {
+    float: left;
+}
+
+.local01 .topic .itemsTopic:hover .date,
+.local01 .topic .itemsTopic:hover .nameTopic {
+    text-decoration: underline;
+}
+
+.local01 .topic .date {
+    width: 120px;
+}
+
+.local01 .topic .nameTopic {
+    width: 600px;
+}
+
+.local01 .topic .showLink {
+    text-align: right;
+}
+
+.local01 .topic .btn {
+    width: 22%;
+    background: #00A3D8;
+    text-align: center;
+}
+
+.local01 .time {
+    width: 65%;
+    display: table;
+}
+
+.local01 .time li {
+    display: table-row;
+}
+
+.local01 .time p {
+    display: table-cell;
+    padding-bottom: 15px;
+    font-size: 14px;
+}
+
+.local01 .time p:nth-child(odd) {
+    padding-right: 20px;
+}
+
+
+/* ----------- present style --------- */
+
+.present {
+    background: #F9F9F2;
+}
+
+.present .container {
+    padding: 0;
+}
+
+.present .container:after {
+    display: block;
+    clear: both;
+    content: '';
+}
+
+.present h2 {
+    padding: 52px 0 48px;
+}
+
+.present .content {
+    width: 54%;
+    padding-right: 30px;
+    float: right;
+    padding-bottom: 26px;
+}
+
+.present h3 {
+    padding-bottom: 4px;
+}
+
+.present .txt-top {
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.present .txt-bt {
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+.present .sign {
+    text-align: right;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.present .avatar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 46%;
+}
+
+
+/* ----------- technology1 style --------- */
+
+#technology1 .titke-h2 {
+    padding: 60px 0;
+}
+
+#technology1 .technology1Bg {
+    background: #EEEEEE;
+}
+
+#technology1 .technology1Bg .container {
+    padding-bottom: 40px;
+}
+
+#technology1 .content {
+    width: 68%;
+    padding-left: 15px;
+}
+
+#technology1 p {
+    padding-bottom: 22px;
+}
+
+#technology1 h3 {
+    padding: 27px 0 17px;
+}
+
+#technology1 .btn {
+    width: 169px;
+    background: #00A3D8;
+}
+
+#technology1 .avatar {
+    width: 33%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+/* ----------- technology2 style --------- */
+
+#technology2 {
+    padding: 50px 0 70px;
+}
+
+#technology2 li {
+    border: 4px solid transparent;
+    padding: 35px;
+}
+
+#technology2 li:after {
+    clear: both;
+    display: block;
+    content: '';
+    visibility: hidden;
+}
+
+#technology2 li:hover {
+    border: 4px solid #EEEEEE;
+}
+
+#technology2 .thumbnail,
+#technology2 .infor {
+    width: 34%;
+    float: left;
+}
+
+#technology2 .infor {
+    width: 66%;
+    padding-left: 40px;
+}
+
+#technology2 .infor h3 {
+    padding-bottom: 10px;
+}
+
+#technology2 .infor .txt {
+    padding-bottom: 30px;
+}
+
+#technology2 .infor .txt+p {
+    text-align: right;
+}
+
+#technology2 .infor .btn {
+    width: 180px;
+    background: #00A3D8;
+}
+
+
+/* ----------- company style --------- */
+
+#company {
+    padding-bottom: 48px;
+    background: #EEEEEE;
+}
+
+#company h2 {
+    padding: 65px 0;
+}
+
+#company .container:after {
+    clear: both;
+    display: block;
+    content: '';
+    visibility: hidden;
+}
+
+#company .infor {
+    float: left;
+    width: 50%;
+    padding-left: 30px;
+}
+
+#company h3 {
+    padding: 20px 0 10px;
+}
+
+#company .list-content li {
+    display: table-row;
+}
+
+#company .list-content p {
+    display: table-cell;
+    padding-bottom: 7px;
+}
+
+#company .list-content p:nth-child(odd) {
+    width: 80px;
+}
+
+#company .list-number li {
+    line-height: 2.2;
+}
+
+
+/* ----------- access style --------- */
+
+.access .title-h2 {
+    padding: 53px 0 56px;
+}
+
+.access iframe {
+    width: 100%;
+    height: 418px;
+}
+
+.access .container:after {
+    clear: both;
+    display: block;
+    content: '';
+    visibility: hidden;
+}
+
+.access .infor {
+    float: left;
+    width: 50%;
+    padding-left: 30px;
+}
+
+.access .infor li {
+    position: relative;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+
+.access .infor li:before {
+    display: inline-block;
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #00A3D8;
+    position: absolute;
+    top: 7px;
+    left: 0;
+}
+
+.access h3 {
+    padding: 10px 0;
+}
+
+
+/*------------------------------------
+
+      faq.html
+
+------------------------------------*/
+
+
+/* ----------- faq style --------- */
+
+.faq .txt {
+    padding: 54px 0 48px;
+}
+
+.faq .group {
+    min-height: 140px;
+    padding: 30px 30px 0 30px;
+    background: #EEEEEE;
+    margin-bottom: 35px;
+}
+
+.faq h3,
+.faq p {
+    position: relative;
+    padding-left: 40px;
+}
+
+.faq h3 {
+    padding-bottom: 10px;
+}
+
+.faq .icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: bold;
+}
+
+
+/*------------------------------------
+
+      privacy.html
+
+------------------------------------*/
+
+
+/* ----------- privacy style --------- */
+
+.privacy .title-h2 {
+    text-align: center;
+    padding: 50px 0 65px;
+}
+
+.privacy .title-h2+p {
+    padding-bottom: 52px;
+}
+
+.privacy .content p {
+    padding-bottom: 18px;
+}
+
+
+/* ----------- about style --------- */
+
+.about {
+    margin: 20px 0 24px;
+}
+
+.about>.container-full {
+    border-top: 1px solid #EEEEEE;
+    max-width: 940px;
+    width: 100%;
+}
+
+.about h2 {
+    padding: 62px 0 70px;
+}
+
+
+/*------------------------------------
+
+      links.html
+
+------------------------------------*/
+
+
+/* ----------- all links style --------- */
+
+.all-links:after {
+    clear: both;
+    display: block;
+    content: '';
+    visibility: hidden;
+}
+
+.all-links a {
+    padding-bottom: 8px;
+    display: block;
+}
+
+.all-links .txt {
+    padding: 55px 0 60px;
+}
+
+.all-links .logo,
+.all-links .content {
+    width: 50%;
+    float: left;
+}
+
+.all-links .title-h3 {
+    padding: 0;
+    line-height: 1;
+}
+
+.all-links .logo {
+    padding-left: 100px;
+}
+
+.all-links .content {
+    padding-bottom: 50px;
+}
+
+
+/*------------------------------------
+
+      contact.html
+
+------------------------------------*/
+
+
+/* ----------- contact style --------- */
+
+.contact {
+    padding-top: 80px;
+}
+
+.contact .container:after {
+    clear: both;
+    display: block;
+    content: '';
+    visibility: hidden;
+}
+
+.contact .content,
+.contact .form {
+    width: 50%;
+    float: left;
+}
+
+.contact .content {
+    padding-right: 50px;
+}
+
+.contact input[type="text"],
+.contact select,
+.contact textarea {
+    width: 100%;
+    padding: 2px 15px;
+}
+
+.contact input,
+.contact select {
+    height: 35px;
+    padding: 2px 5px;
+    border: 1px solid #D2D2D2;
+}
+
+.contact select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url("../../images/contact/arrow_select.png") no-repeat 96% 50%;
+    background-size: 3%;
+}
+
+.contact textarea {
+    overflow: hidden;
+}
+
+.contact .input-group {
+    margin-bottom: 20px;
+}
+
+.contact .input-group:after {
+    clear: both;
+    display: block;
+    content: '';
+    visibility: hidden;
+}
+
+.contact .input-group .require {
+    float: right;
+    display: block;
+    text-indent: 9999px;
+    overflow: hidden;
+    width: 56px;
+    height: 23px;
+    background: url("../../images/contact/require_icon.png");
+}
+
+.contact .input-name:after {
+    clear: both;
+    display: block;
+    content: '';
+    visibility: hidden;
+}
+
+.contact .input-name input {
+    float: left;
+    width: 49% !important;
+}
+
+.contact .input-name input:nth-child(2) {
+    float: right;
+}
+
+.contact button {
+    border: 2px solid transparent;
+    background: #00B9FF;
+    max-width: 300px;
+    width: 100%;
+    position: relative;
+    margin-top: 30px;
+}
+
+.contact button:before {
+    content: "";
+    background: url("../../images/contact/arrow-right.png") center no-repeat;
+    width: 16px;
+    position: absolute;
+    top: calc(50% - 8px);
+    left: 30px;
+    height: 16px;
+}
+
+.contact .checkbox-group .input {
+    padding-top: 10px;
+}
+
+.contact .checkbox-group span {
+    padding-right: 22px;
+}
+
+.contact .checkbox-group .last {
+    padding-right: 0;
+}
+
+
+/*------------------------------------
+
+      about.html
+
+------------------------------------*/
+
+
+/* ----------- linkAnchor style --------- */
+
+.linkAnchor {
+    padding-top: 40px;
+    a {
+        font-weight: bold;
+        color: $base-link;
+        display: block;
+        width: 33.33%;
+        float: left;
+        text-align: center;
+        &:after {
+            max-width: 205px;
+            width: 100%;
+            display: block;
+            content: '';
+            margin: 0 auto;
+            margin-top: 10px;
+            height: 3px;
+            background: #0059B2;
+        }
+    }
+}
+
+.linkAnchor .container:after {
+    clear: both;
+    display: block;
+    content: '';
+    visibility: hidden;
+}
+
+
+.linkAnchor a:last-child {
+    color: #DDDDDD;
+}
+
+.linkAnchor a:last-child:after {
+    background: #DDDDDD;
+}
+
+#about-pg .container:after,
+#about-pg .container-full:after {
+    clear: both;
+    display: block;
+    content: '';
+    visibility: hidden;
+}
+
+#about-pg h2 {
+    padding: 85px 0 80px;
+}
+
+#about-pg .infor,
+#about-pg .avatar {
+    float: left;
+}
+
+#about-pg .infor {
+    padding-right: 15px;
+    width: 55%;
+}
+
+#about-pg .infor h3 {
+    padding-bottom: 28px;
+}
+
+#about-pg .infor p {
+    padding-bottom: 25px;
+}
+
+#about-pg .avatar {
+    width: 45%;
+}
+
+#about-pg .avatar-img {
+    text-align: center;
+}
+
+#about-pg .content {
+    padding: 21px 30px;
+    border: 1px solid #DDDDDD;
+    border-top: 2px solid #DDDDDD;
+    border-bottom: 2px solid #DDDDDD;
+}
+
+#about-pg .content:after {
+    clear: both;
+    display: block;
+    content: '';
+    visibility: hidden;
+}
+
+#about-pg .content img {
+    width: 30%;
+}
+
+#about-pg .content div {
+    float: right;
+    width: 68%;
+    padding-left: 10px;
+}
+
+#about-pg .content h4 {
+    padding-bottom: 10px;
+}
+
+
+/* ---------------- tabs components ---------------- */
+
+.tabs {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.tabs-content {
+    margin-top: 45px;
+    border: 1px solid #0059B2;
+    background: #EEEEEE;
+}
+
+.tabs:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.tabs li {
+    color: #222;
+    float: left;
+    padding: 10px 15px;
+    cursor: pointer;
+    width: 50%;
+    background: $base-link;
+}
+
+.tabs li h3 {
+    color: white;
+}
+
+.tabs li h3:after {
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 8px 8px 0 8px;
+    border-color: #fff transparent transparent transparent;
+    margin-left: 10px;
+    margin-bottom: 2px;
+    transform: rotate(-90deg);
+}
+
+.tabs li:nth-child(2) {
+    text-align: center;
+}
+
+.tabs li.current {
+    background: #EEEEEE;
+    color: #0059B2;
+}
+
+.tabs li.current h3 {
+    color: #0059B2;
+}
+
+.tabs li.current h3:after {
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 8px 8px 0 8px;
+    border-color: #0059B2 transparent transparent transparent;
+    margin-left: 10px;
+    margin-bottom: 2px;
+    transform: rotate(0deg);
+}
+
+
+/* ---------------- tabs contents ---------------- */
+
+.tab-content {
+    display: none;
+    background: #ededed;
+    padding: 15px 15px 25px 35px;
+}
+
+.tab-content:after {
+    clear: both;
+    display: block;
+    content: '';
+    visibility: hidden;
+}
+
+.tab-content.current {
+    display: inherit;
+}
+.tab-content .time {
+    &:first-child {
+        padding-right: 30px;
+    }
+}
+.tab-content .time {
+    float: left;
+    width: 50%;
+}
+
+.tab-content .time h3 {
+    padding-bottom: 10px;
+}
+
+.tab-content .time .group {
+    margin-bottom: 25px;
+}
+
+.tab-content .time-list {
+    font-size: 14px;
+}
+
+.tab-content .time-list li {
+    display: table-row;
+}
+
+.tab-content .time-list p {
+    display: table-cell;
+}
+
+.tab-content .time-list .year {
+    width: 78px;
+}
+
+#tab-2>.year {
+    padding-top: 15px;
+}
+
+
+/* ---------------- technology contents ---------------- */
+
+.technology h2 {
+    padding: 67px 0 68px;
+}
+
+.technology .title-sub-large {
+    // padding: 40px 15px 45px 0;
+}
+
+.technology h3 {
+    padding: 0 0 10px 15px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #00A3D8;
+}
+
+#technology {
+    .technology_03_04 {
+        .title-sub-large {
+            padding: 30px 0;
+        }
+        .box_content {
+            padding-left: 15px;
+        }
+        +.note {
+            padding: 12px 30px;
+        }
+    }
+    footer {
+        padding-top: 115px;
+    }
+}
+.technology {
+    .ico_zoom {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+    .box_details_technology1 {
+        @extend %clearfix;
+        .description {
+            width: 55%;
+            float: left;
+            padding-left: 15px;
+            padding-right: 40px;
+            .title-sub-large {
+                padding-bottom: 20px;
+            }
+            p {
+                padding-top: 28px;
+            }
+        }
+        .note_01 {
+            padding-top: 45px;
+            padding-left: 15px;
+        }
+        .thumbnail {
+            width: 45%;
+            padding: 20px;
+            float: left;
+            background: #DFDFD0;
+        }
+        .content_box {
+            position: relative;
+            background: #fff;
+        }
+    }
+    .box_details_technology2 {
+        padding: 28px;
+        background: #DFDFD0;
+        @extend %clearfix;
+        .description {
+            float: left;
+            padding-left: 16px;
+            padding-right: 16px;
+            width: 40%;
+        }
+        .title-h5 {
+            padding-top: 50px;
+            padding-bottom: 12px;
+            &.second {
+                padding-top: 60px;
+            }
+        }
+        .thumbnail {
+            cursor: pointer;
+            position: relative;
+            float: right;
+            width: 60%;
+        }
+        .listDetails {
+            padding-left: 20px;
+        }
+    }
+}
+.technology .content:after {
+    clear: both;
+    display: block;
+    content: '';
+    visibility: hidden;
+}
+
+.technology .infor {
+    padding: 0 0 0 15px;
+    width: 50%;
+    float: left;
+}
+
+.technology .infor h4 {
+    padding: 0 0 20px 0;
+}
+
+.technology .infor p {
+    padding: 0 0 20px 0;
+}
+
+.technology .infor p:last-child {
+    padding: 0;
+}
+
+.technology .img {
+    float: left;
+    width: 50%;
+    text-align: right;
+    padding-bottom: 50px;
+}
+
+.technology .img+p {
+    padding-left: 15px;
+}
+
+.technology .note,
+.technology .note-blue {
+    border: 1px solid black;
+    padding: 20px;
+    margin-top: 18px;
+    font-weight: bold;
+}
+
+.technology .note-blue {
+    border: 1px solid #10A3C0;
+    color: #10A3C0;
+}
+
+.technology .groupTitle h3 {
+    margin: 65px 0 0;
+    padding-bottom: 10px;
+}
+
+.technology .groupTitle .txt-large {
+    font-weight: bold;
+}
+.technology .groupTitle:last-child h4 {
+    padding: 20px 0;
+}
+
+.target {
+    padding: 40px 0 0 15px;
+}
+
+.target p {
+    padding: 25px 0 20px;
+}
+
+@import "footer";
+@import "responsive";

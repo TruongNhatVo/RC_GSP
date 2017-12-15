@@ -1,0 +1,215 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+body {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a {
+    color: #0059B2;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+a:focus {
+    color: #660000;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h5,
+h6 {
+    font-weight: bold;
+}
+
+button:focus,
+input:focus,
+a:focus {
+    outline: none;
+}
+
+%clearfix {
+    &:after {
+        content: "";
+        clear: both;
+        display: block;
+        height: 0;
+        visibility: hidden;
+    }
+}
+
+.clearfix {
+    &:before {
+        content: "";
+        clear: both;
+        display: block;
+        height: 0;
+        visibility: hidden;
+    }
+    @extend %clearfix;
+}
+/*------------------- Wraper -------------------*/
+
+.wrapper {
+    margin: auto;
+    overflow: hidden;
+    min-width: 1000px;
+}
+
+.container,
+.container-full {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 30px;
+    position: relative;
+}
+
+.container-full {
+    padding: 0;
+}
+
+
+/*------------------- Component -------------------*/
+.is_hidden {
+    display: none;
+}
+.title-h2,
+.title-h2-black,
+.title-h2-breadcumb {
+    font-size: 24px;
+    color: #00A3D8;
+    text-align: center;
+}
+
+.title-h2-black {
+    font-size: 18px;
+    color: black;
+    text-align: center;
+}
+
+.title-h2-breadcumb {
+    font-size: 28px;
+    color: white;
+}
+
+.title-h3,
+.title-h3-large,
+.title-h3-blue,
+.title-h3-sub {
+    color: black;
+    font-size: 18px;
+}
+
+.title-h3-large {
+    font-size: 28px;
+}
+
+.title-h3-blue {
+    color: #10A3C0;
+}
+
+.title-h3-sub {
+    color: #00A3D8;
+}
+
+.title-h3-footer,
+.title-h3-infor {
+    font-size: 21px;
+    color: #00A3D8;
+}
+
+.title-h3-infor {
+    color: #00A3D8;
+}
+
+.title-sub,
+.title-sub-large {
+    font-size: 14px;
+    color: #333333;
+}
+
+.title-sub-large {
+    font-size: 18px;
+}
+
+.txt,
+.txt-large,
+.txt-small,
+.txt-label {
+    font-size: 16px;
+    color: #333333;
+}
+
+.txt-large {
+    font-size: 18px;
+}
+
+.txt-small {
+    font-size: 14px;
+}
+
+.txt-label {
+    font-weight: bold;
+    color: #0059B2;
+}
+
+.link,
+.link-small {
+    font-size: 16px;
+    color: #0059B2;
+    text-decoration: underline;
+}
+
+.link-small {
+    font-size: 12px;
+}
+
+.link-anchor {
+    font-size: 14px;
+    color: #00A3D8;
+}
+
+.btn,
+.btn-small,
+.btn-lang {
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    height: 42px;
+    line-height: 38px;
+    border: 2px solid transparent;
+    -webkit-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.btn:hover,
+.btn-small:hover,
+.btn-lang:hover {
+    border: 2px solid #00A3D8;
+    background: white !important;
+    color: #00A3D8;
+}
+
+.btn-small {
+    font-size: 13px;
+    height: 32px;
+    line-height: 28px;
+}
+
+.btn-lang {
+    height: 20px;
+    line-height: 20px;
+    font-size: 10px;
+}

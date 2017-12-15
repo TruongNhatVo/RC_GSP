@@ -1,0 +1,135 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+// **********************************
+//   font-family
+// **********************************
+$font-body: Arial,
+'Helvetica Neue',
+Helvetica,
+Roboto,
+'Droid Sans',
+'メイリオ',
+Meiryo,
+'ヒラギノ角ゴ ProN W3',
+'Hiragino Kaku Gothic ProN',
+'游ゴシック',
+sans-serif;
+$font-heading: 'Noto Sans JP',
+'Noto Sans Japanese',
+sans-serif;
+$font-awesome: "FontAwesome";
+// **********************************
+//   COLOR
+// **********************************
+// Brand Color
+$color-primary: #660000;
+// Application Color
+$base-yellow:#F0F0E1;
+$base-quiteYellow: #F9F9F2; 
+$base-link: #0059B2;
+$base-blue: #00A3D8;
+$base-quiteBlue: #10A3C0;
+$base-grey: #EEEEEE;
+$base-ft: #10A3C0;
+$base-font: #333333;    
+$base-breabcumb: #99CCFF;    
+$base-input: #D2D2D2;
+$base-submit: #00B9FF;
+$base-quiteGrey: #DDDDDD;
+// **********************************
+//   EXTENDS
+// **********************************
+@mixin width($child, $parent) {
+	width: round(percentage($child/$parent));
+}
+
+@mixin move($position, $direction, $positionTop, $positionLeft) {
+	position: $position;
+	@if $direction=='tl' {
+		top: $positionTop;
+		left: $positionLeft;
+	}
+	@if $direction=='tr' {
+		top: $positionTop;
+		right: $positionLeft;
+	}
+	@if $direction=='br' {
+		bottom: $positionTop;
+		right: $positionLeft;
+	}
+	@if $direction=='bl' {
+		bottom: $positionTop;
+		left: $positionLeft;
+	}
+}
+
+@mixin verticalMiddle($direction,$space) {
+	& {
+		@include move(absolute,'t'+$direction,50%,$space);
+		transform: translateY(-50%);
+	}
+}
+
+@mixin center($direction,$space) {
+	& {
+		@include move(absolute,$direction+'l',$space,50%);
+		transform: translateX(-50%);
+	}
+}
+
+@mixin centerAll() {
+	& {
+		@include move(absolute,'tl',50%,50%);
+		transform: translate(-50%,-50%);
+	}
+}
+
+@mixin clearFix() {
+	&:after {
+		clear: both;
+		display: block;
+		content: '';
+		visibility: hidden;
+	}
+}
+
+@mixin triangle($direction, $sizeH, $sizeV, $color){
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    -moz-transform: scale(.9999);
+      
+  @if $direction == top {
+    border-width: 0 $sizeV $sizeH $sizeV;
+    border-color: transparent transparent $color transparent;
+  }
+  @if $direction == bottom{
+    border-width: $sizeV $sizeH 0 $sizeV;
+    border-color: $color transparent transparent transparent;
+  }
+  @if $direction == left{
+    border-width: $sizeV $sizeH $sizeV 0;
+    border-color: transparent $color transparent transparent;
+  }
+  @if $direction == right{
+    border-width: $sizeV 0 $sizeV $sizeH;
+    border-color: transparent transparent transparent $color;
+  }
+  // @if $direction == topright{
+  //   border-width: 0 $sizeH $sizeV 0;
+  //   border-color: transparent $color transparent transparent;
+  // }
+  // @if $direction == bottomright{
+  //   border-width: 0 0 $sizeH $sizeV;
+  //   border-color: transparent transparent $color transparent;
+  // }
+  // @if $direction == bottomleft{
+  //   border-width: $sizeH 0 0 $sizeV;
+  //   border-color: transparent transparent transparent $color;
+  // }
+  // @if $direction == topleft{
+  //   border-width: $sizeH $sizeV 0 0;
+  //   border-color: $color transparent transparent transparent;
+  // }
+}
