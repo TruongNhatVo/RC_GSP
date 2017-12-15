@@ -21,7 +21,7 @@
 
 <body>
     <div <?php
-            if (is_page_template('technology/index.php') && is_page_template('technology_2/index.php') ) {
+            if (is_page_template('technology/index.php') || is_page_template('technology_2/index.php') ) {
                 echo 'id="technology"';
             } else if (is_page_template('contact/index.php')){
                 echo 'id="contact"';

@@ -82,7 +82,7 @@
                             <span class="last">希望しない</span>
                         </div>
                     </div>
-                    <button type="submit" class="btn">入力内容を確認</buttom>
+                    <button type="submit" class="btn">入力内容を確認</button>
                 </form>
             </div>
         </div>
