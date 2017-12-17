@@ -967,7 +967,7 @@ header .mainNav a {
     color: #0059B2;
     padding-bottom: 10px;
     display: inline-block;
-    border-bottom: 5px solid #0059B2;
+    border-bottom: 3px solid #0059B2;
 }
 
 .link-anchor ul a.is_pc {
@@ -1051,12 +1051,12 @@ header .mainNav a {
 
 #technology02 {
     border-top: 1px solid #DDDDDD;
-    padding-top: 75px;
+    padding-top: 70px;
     margin-top: 50px;
 }
 
 .local02 .title-h2 {
-    padding-bottom: 77px;
+    padding-bottom: 67px;
 }
 
 .local02 .main-img {
@@ -1092,7 +1092,7 @@ header .mainNav a {
 }
 
 .post .note {
-    margin-top: 25px;
+    margin-top: 15px;
     padding: 25px 30px;
     border: 1px solid #000;
     font-weight: bold;
@@ -1301,7 +1301,7 @@ header .mainNav a {
 .tab-content {
     display: none;
     background: #ededed;
-    padding: 15px 15px 25px 35px;
+    padding: 35px 15px 25px 35px;
     font-size: 14px;
 }
 
@@ -1555,7 +1555,7 @@ footer .group .btn-small:nth-child(2) {
     .btn-small {
         height: 5vw;
         line-height: calc(5vw - 4px);
-        font-size: 2.9vw;
+        font-size: 2.5vw;
     }
     .btn-lang {
         height: 10.3vw;
