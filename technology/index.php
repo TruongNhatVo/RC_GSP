@@ -55,20 +55,20 @@ get_header(); ?>
                     <div class="time">
                         <div class="group">
                             <h4 class="title-sub">経　歴：</h4>
-                            <p>1941年　大阪生まれ</p>
+                            <p class="event">1941年　大阪生まれ</p>
                         </div>
                         <div class="group">
                             <h4 class="title-sub">学歴：</h4>
-                            <p>1965年　名古屋大学理学部化学科卒業</p>
-                            <p>1970年　名古屋大学大学院・理学研究科博士課程満了</p>
+                            <p class="event">1965年　名古屋大学理学部化学科卒業</p>
+                            <p class="event">1970年　名古屋大学大学院・理学研究科博士課程満了</p>
                         </div>
                         <div class="group">
                             <h4 class="title-sub">学位：</h4>
-                            <p>理学博士、名誉医学博士</p>
+                            <p class="event">理学博士、名誉医学博士</p>
                         </div>
                         <div class="`group">
                             <h4 class="title-sub">メダル・賞状・感謝状：   </h4>
-                            <p>
+                            <p class="event">
                                 KROC賞（米国、KROC Foundation）
                                 <br> 若手奨励賞（アメリカ対癌協会）
                                 <br> Arnold若手奨励賞（米国 Victor社）
@@ -325,7 +325,7 @@ get_header(); ?>
                     </p>
                 </div>
                 <div class="post-group group09">
-                    <h4 class="title-h4">クロス法、ガイド分子法など様々な方式に適用可能</h4>
+                    <h4 class="title-h4">クロス法、ガイド分子法など<br class="is_sp">様々な方式に適用可能</h4>
                     <p>試験管内でスクリーングする利点を生かし、似た抗原に結合するものを除去する「サブトラクション法」や、逆に同一エピトープ（抗原内の抗体結合部位）にも結合するものを選抜する「クロス選抜法」を取り入れることも可能です。また既存の抗体が結合する部位の近傍に結合するファージを単離するガイド分子法も適応できます。</p>
                 </div>
             </div>  

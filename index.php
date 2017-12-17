@@ -62,7 +62,7 @@
 						<br> 故・清水信義氏の想いを受け継ぐ<br class="is_sp">研究機関です。
 					</h3>
                         <p>清水先生は、日本のゲノム研究草分け的な存在です。 2015年に亡くなられるまで、私たちはその清水先生が直接設立、指導研究をされるための土台として、これらに必要なスクリーニング研究のバックアップを行ってまいりました。以降、先生の意思を受け継ぎ研究に携わる方々のサポートを同様に行っております。</p>
-                        <a href="<?php echo home_url(); ?>/technology/index.php#technology1" class="btn">清水先生と私たち</a>
+                        <a href="<?php echo home_url(); ?>/technology/index.php#technology01" class="btn">清水先生と私たち</a>
                     </div>
                     <div class="avatar">
                         <img src="<?php echo get_template_directory_uri(); ?>/common/images/avatar_02.png" alt="清水先生と私たち">
@@ -82,7 +82,7 @@
                             <h3 class="title-h3-blue">当社のテクノロジー</h3>
                             <p class="txt">当社の抗体ライブラリーは、一本鎖抗体を提示するファージディスプレイ型です。抗体遺伝子配列の種類は10の13-14乗になります。 性能が飛躍的に向上したFab型抗体を提示するライブラリーの研究開発も進めています。</p>
                             <p>
-                                <a href="<?php echo home_url(); ?>/technology/#technology" class="btn">くわしく見る</a>
+                                <a href="<?php echo home_url(); ?>/technology/#technology02" class="btn">くわしく見る</a>
                             </p>
                         </div>
                     </li>

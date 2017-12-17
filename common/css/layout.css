@@ -28,10 +28,10 @@ body {
 	font-weight: 500;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	letter-spacing: .08em;
+	letter-spacing: .08em;	
+    line-height: 1.6;
 }
 
-	
 @import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
 
 .h1,h2,h3{
