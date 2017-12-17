@@ -1994,6 +1994,10 @@ footer .group .btn-small:nth-child(2) {
     .link-anchor ul li {
         width: 50%;
     }
+    .link-anchor ul li:first-child {
+        width: calc(50% - 2px);
+        margin-right: 2px;
+    }
     .link-anchor ul a {
         padding: 15px 0;
         font-size: 3.1vw;
