@@ -1,8 +1,3 @@
-
-body {
-    
-}
-
 * {
     box-sizing: border-box;
 }
@@ -566,7 +561,8 @@ header .mainNav a {
     padding-bottom: 30px;
 }
 
-#technology2 .infor .txt+p {
+#technology2 .infor .more-infor {
+    padding: 15px 0;
     text-align: right;
 }
 
@@ -693,6 +689,10 @@ header .mainNav a {
 .faq p {
     position: relative;
     padding-left: 40px;
+}
+
+.faq .link {
+    font-size: inherit;
 }
 
 .faq h3 {
@@ -838,6 +838,7 @@ header .mainNav a {
 .contact textarea {
     width: 100%;
     padding: 2px 15px;
+    resize: none;
 }
 
 .contact input,
@@ -1454,7 +1455,7 @@ footer .group .btn-small:nth-child(2) {
 /* ------------ footer contact.html -------------*/
 
 #contact footer {
-    background-position: left 72%;
+    background-position: left 62%;
 }
 
 @media screen and (min-width: 780px) {
@@ -1666,8 +1667,8 @@ footer .group .btn-small:nth-child(2) {
         float: right;
     }
     /*======================================
-      breabcumb
-  ======================================*/
+        breabcumb
+    ======================================*/
     .breadcumb {
         height: 15vw;
         line-height: 15vw;
@@ -1680,7 +1681,7 @@ footer .group .btn-small:nth-child(2) {
     /* ----------- slide style --------- */
     .slide .btn {
         width: 31vw;
-        border-top: 7%;
+        bottom: 7%;
     }
     .slide .title {
         margin: auto;
@@ -1722,7 +1723,7 @@ footer .group .btn-small:nth-child(2) {
     }
     /* ----------- present style --------- */
     .present .container {
-        padding-bottom: 30vw;
+        padding-bottom: 35vw;
     }
     .present h2 {
         padding: 32px 0 28px;
@@ -1793,16 +1794,16 @@ footer .group .btn-small:nth-child(2) {
     }
     #technology2 .infor h3 {
         text-align: center;
-        padding-top: 15px;
+        padding: 20px 0 10px;
     }
-    #technology2 .infor .txt+p {
+    #technology2 .infor .more-infor {
         text-align: center;
-        padding: 10px 0 20px;
+        padding: 20px 0;
     }
     #technology2 .infor .btn {
         width: 60%;
-        line-height: calc(9vw - 4px);
-        height: 9vw;
+        line-height: calc(11vw - 4px);
+        height: 11vw;
         font-size: 4.1vw;
     }
     /* ----------- company style --------- */
@@ -1848,8 +1849,8 @@ footer .group .btn-small:nth-child(2) {
     /*------------------------------------
 
             faq.html
-
-  ------------------------------------*/
+    
+    ------------------------------------*/
     /* ----------- faq style --------- */
     .faq .txt-breadcumb {
         padding: 37px 0 30px;
@@ -1877,7 +1878,7 @@ footer .group .btn-small:nth-child(2) {
 
             privacy.html
 
-  ------------------------------------*/
+    ------------------------------------*/
     /* ----------- privacy style --------- */
     .privacy .title-h2 {
         text-align: center;
@@ -1893,7 +1894,7 @@ footer .group .btn-small:nth-child(2) {
 
             links.html
 
-  ------------------------------------*/
+    ------------------------------------*/
     /* ----------- all links style --------- */
     .all-links .txt {
         padding: 38px 0;
@@ -1927,7 +1928,7 @@ footer .group .btn-small:nth-child(2) {
 
             contact.html
 
-  ------------------------------------*/
+    ------------------------------------*/
     /* ----------- contact style --------- */
     .contact {
         padding-top: 40px;
@@ -1978,10 +1979,10 @@ footer .group .btn-small:nth-child(2) {
     }
     /* ---------------------------------------
       Technology.html
-  --------------------------------------- */
+    --------------------------------------- */
     /* ----------------------------------
     Technology.html
-  ---------------------------------- */
+    ---------------------------------- */
     .full-content,
     .post .title-h3,
     .post .title-h4 {
@@ -2069,6 +2070,7 @@ footer .group .btn-small:nth-child(2) {
     }
     #technology01 .local01 {
         padding-top: 0;
+        padding-bottom: 85px;
     }
     #technology01 .about {
         border-top: 0;
@@ -2171,7 +2173,14 @@ footer .group .btn-small:nth-child(2) {
     .post .note {
         padding: 15px 10px;
         margin: 25px 0;
+        margin-top: 0;
         font-weight: initial;
+    }
+    .post .note p {
+        padding: 0;
+    }
+    .post01 .note {
+        margin-bottom: 0;
     }
     .post01 .title-h3 {
         border-top: 1px solid #00A3D8;
@@ -2330,9 +2339,7 @@ footer .group .btn-small:nth-child(2) {
         border: 0;
         background: transparent;
     }
-    #technology footer p,
-    #links footer p,
-    #faq footer p {
+    footer p {
         text-align: left;
     }
 }

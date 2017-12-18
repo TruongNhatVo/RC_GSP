@@ -218,7 +218,7 @@ get_header(); ?>
                             また抗体を作製するためには、動物を免疫する方法と遺伝子組換え技術を応用した動物個体を使用しない方法に大別されます。
                         </p>
                     </div>
-                    <div class="zoom-image">
+                    <div class="zoom-image beforeEl">
                         <a class="zoom" href="#gallery02"><img src="<?php echo get_template_directory_uri(); ?>/common/images/technology/img_struture01.png" alt="" class="to-zoom"></a>
                         <img src="<?php echo get_template_directory_uri(); ?>/common/images/technology/ico_zoom.png" alt="" class="zoom-icon">
                     </div>
@@ -229,7 +229,7 @@ get_header(); ?>
                         <p>抗体ライブラリーの特徴は、生体に害を引き起こす可能性がある抗原・抗体（自己抗体など）にも対応可能なところです。スクリーングにより抗体遺伝子を入手できるので、各種組換え抗体の産生が可能です。</p>
                     </div>
                 </div>
-                <div class="note">
+                <div class="note moveBefore">
                     <p>当社はファージディスプレイ型抗体ライブラリーを独自に開発し様々な抗体を単離しています。</p>
                 </div>
 

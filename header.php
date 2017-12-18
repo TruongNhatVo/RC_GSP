@@ -32,7 +32,7 @@
             } else if (is_page_template('faq/index.php')){
                 echo 'id="faq"';
             } else if (is_home()){
-                echo '';
+                echo 'id="top"';
             } else {
                 return 0;
             } ?> class="wrapper">
