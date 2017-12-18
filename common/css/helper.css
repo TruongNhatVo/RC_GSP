@@ -40,12 +40,7 @@
 .inlineBlock {
 	display: inline-block;
 }
-.is_pc {
-    display: inherit;
-}
-.is_sp {
-    display: none;
-}
+
 /*--------- width ---------*/
 .wid7m {
 	width: 7em;

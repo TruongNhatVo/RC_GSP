@@ -15,6 +15,14 @@ img {
     clear:both;
 }
 
+a.btn,
+a img{
+	transition: all .3s linear;
+}
+a.btn:hover,
+a:hover img{
+	opacity: .7;
+}
 
 /*
 ----------------------------------------- Common */
@@ -28,10 +36,10 @@ body {
 	font-weight: 500;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	letter-spacing: .08em;	
-    line-height: 1.6;
+	letter-spacing: .08em;
 }
 
+	
 @import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
 
 .h1,h2,h3{

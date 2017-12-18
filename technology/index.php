@@ -216,7 +216,7 @@ get_header(); ?>
                             抗体は複数の抗体産生細胞由来のポリクローナル抗体と一種の細胞由来のモノクローナル抗体に分類できます。<br>
                             モノクローナル抗体の特徴は、重鎖・軽鎖それぞれ一種の遺伝子にコードされているため、性質が均一であることです。
                         </p>
-                        <p class="moveSp">
+                        <p class="Flag_moveSp">
                             また抗体を作製するためには、動物を免疫する方法と遺伝子組換え技術を応用した動物個体を使用しない方法に大別されます。
                         </p>
                     </div>
@@ -227,12 +227,14 @@ get_header(); ?>
                     <div id="gallery02" class="hidden">
                         <a href="<?php echo get_template_directory_uri(); ?>/common/images/technology/img_struture01.png"></a>
                     </div>
+                </div>
+                <div class="move_SP">
                     <div class="more">
                         <p>抗体ライブラリーの特徴は、生体に害を引き起こす可能性がある抗原・抗体（自己抗体など）にも対応可能なところです。スクリーングにより抗体遺伝子を入手できるので、各種組換え抗体の産生が可能です。</p>
                     </div>
-                </div>
-                <div class="note moveBefore">
-                    <p>当社はファージディスプレイ型抗体ライブラリーを独自に開発し様々な抗体を単離しています。</p>
+                    <div class="note moveBefore">
+                        <p>当社はファージディスプレイ型抗体ライブラリーを独自に開発し様々な抗体を単離しています。</p>
+                    </div>
                 </div>
 
                 <div class="post-group group02">

@@ -14,9 +14,9 @@
                 <div class="content">
                     <p class="txt">
                         GSPエンタープライズにご興味いただき
-                        <br> 誠にありがとうございます。
+                        <br class="is_pc"> 誠にありがとうございます。
                         <br> 右記フォームに必要事項をご入力の上
-                        <br> 「入力内容を確認」ボタンを押してご送信ください。
+                        <br class="is_pc"> 「入力内容を確認」ボタンを押してご送信ください。
                     </p>
                 </div>
                 <form class="form">
@@ -53,7 +53,9 @@
                         </div>
                     </div>
                     <div class="input-group">
-                        <label for="location" class="txt-label">役職（任意）</label>
+                        <div class="label-group">
+                            <label for="location" class="txt-label">役職（任意）</label>
+                        </div>
                         <div class="input">
                             <input id="location" type="text">
                         </div>
@@ -77,7 +79,9 @@
                         </div>
                     </div>
                     <div class="input-group">
-                        <label for="field" class="txt-label">記入欄</label>
+                        <div class="label-group">
+                            <label for="field" class="txt-label">記入欄</label>                            
+                        </div>
                         <div class="input">
                             <textarea id="field" rows="15"></textarea>
                         </div>
