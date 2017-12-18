@@ -51,10 +51,10 @@ $(document).ready(function() {
 		}).magnificPopup('open');
 	});
 
-	// check height menu responsive
-	$(window).on('resize load', function() {
-		// This will execute whenever the window is resized
-		if ($(window).width() < 780) {
+
+	$(window).on('resize load', function(){
+		var win = $(this);
+		if (win.width() < 780) {
 			let headerHeight = $('header').height() + $('header').offset().top;
 
 			$('.menuMain').css('top', headerHeight);
@@ -63,12 +63,14 @@ $(document).ready(function() {
 			$('img').each(function() {
 				$(this).attr("src", $(this).attr("src").replace('_pc', '_sp'));
 			});
-			// Move text SP
-			$('.moveSp').insertAfter('.abc');
+			// Move text SP			
 			$('.moveBefore').insertBefore('.beforeEl');
-
 		}
-		return 0;
+		else {
+			$('img').each(function() {
+				$(this).attr("src", $(this).attr("src").replace('_sp', '_pc'));
+			});
+		}
 	});
 
 	// smooth scroll 

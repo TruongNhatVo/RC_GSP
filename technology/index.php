@@ -27,7 +27,7 @@ get_header(); ?>
                 <div class="description">
                     <h3 class="title-h3">仮）））取締役だった清水信義は２５年間慶應大学医学部分子生物学教室教授でヒトゲノム研究の先頭にありました</h3>
                     <p>仮）））取締役だった清水信義は２５年間慶應大学医学部分子生物学教室教授でヒトゲノム研究の先頭にありました</p>
-                    <p>
+                    <p class="pr40">
                         私たちは、清水先生の想いを受け継ぎ、未来のための研究を重ねつつ、 <br>
                         清水先生は、慶応大学医学部教授を2007年3月に退任され、慶応大学名誉教授となられた。清水先生は1971年から米国へ渡っている。カリフォルニア大学、エール大学博士、研究員、アリゾナ大学の教授を歴任後、1983年に慶応大学医学部の分子生物学教室の。
                     </p>
@@ -52,73 +52,75 @@ get_header(); ?>
                         <h3 class="title-h3-sub">清水先生の主要研究成果</h3></li>
                 </ul>
                 <div id="tab-1" class="tab-content current">
-                    <div class="time">
-                        <div class="group">
-                            <h4 class="title-sub">経　歴：</h4>
-                            <p class="event">1941年　大阪生まれ</p>
-                        </div>
-                        <div class="group">
-                            <h4 class="title-sub">学歴：</h4>
-                            <p class="event">1965年　名古屋大学理学部化学科卒業</p>
-                            <p class="event">1970年　名古屋大学大学院・理学研究科博士課程満了</p>
-                        </div>
-                        <div class="group">
-                            <h4 class="title-sub">学位：</h4>
-                            <p class="event">理学博士、名誉医学博士</p>
-                        </div>
-                        <div class="`group">
-                            <h4 class="title-sub">メダル・賞状・感謝状：   </h4>
-                            <p class="event">
-                                KROC賞（米国、KROC Foundation）
-                                <br> 若手奨励賞（アメリカ対癌協会）
-                                <br> Arnold若手奨励賞（米国 Victor社）
-                                <br> 中日文化賞（2003年、内藤記念財団）
-                                <br> 義塾賞（2006年、慶應義塾大学）
-                                <br> 名誉医学博士号（ルーマニアLuliu Hatieganu医科薬科大学）
-                                <br> 文部科学大臣賞（2004年）
-                            </p>
-                        </div>
-                    </div>
-                    <div class="time">
-                        <h4 class="title-sub">経　歴：</h4>
-                        <ul class="time-list">
-                            <li>
-                                <p class="year">1971年：</p>
-                                <p class="event">カリフォルニア大学、エール大学で博士研究員として分子遺伝学研究に従事。</p>
-                            </li>
-                            <li>
-                                <p class="year">1977年：</p>
-                                <p class="event">アリゾナ大学分子細胞学科教授に就任、ヒト細胞遺伝学の研究・教育活動に貢献。</p>
-                            </li>
-                            <li>
-                                <p class="year">1983年：</p>
-                                <p class="event">慶応義塾大学医学部分子生物学教授に就任、ヒト遺伝子マッピングやがん研究を開始。その後、１０年間、アリゾナ大学教授も兼任し、毎月、日米を往復して研究・教育活動に尽力</p>
-                            </li>
-                            <li>
-                                <p class="year">2007年：</p>
+                    <div class="clearfix">
+                        <div class="time">
+                            <div class="group">
+                                <h4 class="title-sub">経　歴：</h4>
+                                <p class="event">1941年　大阪生まれ</p>
+                            </div>
+                            <div class="group">
+                                <h4 class="title-sub">学歴：</h4>
+                                <p class="event">1965年　名古屋大学理学部化学科卒業</p>
+                                <p class="event">1970年　名古屋大学大学院・理学研究科博士課程満了</p>
+                            </div>
+                            <div class="group">
+                                <h4 class="title-sub">学位：</h4>
+                                <p class="event">理学博士、名誉医学博士</p>
+                            </div>
+                            <div class="`group">
+                                <h4 class="title-sub">メダル・賞状・感謝状：   </h4>
                                 <p class="event">
-                                    <br class="is_pc">慶応義塾大学医学部　定年退職。直後に慶応大学先導研・GSPセンターをつくば市に創設、ゲノム研究をさらに加速する。</p>
-                            </li>
-                            <li>
-                                <p class="year">2015年：</p>
-                                <p class="event">
-                                    <br class="is_pc">
-                                    <br class="is_pc"> 慶応義塾大学医学部　名誉教授
-                                    <br> 慶応義塾大学先導研　ゲノム・スーパー・パワー(GSP)センター　名誉所長
-                                    <br> 長浜バイオ大学　特別招聘教授
-                                    <br> 同志社大学　特別客員教授
-                                    <br>
+                                    KROC賞（米国、KROC Foundation）
+                                    <br> 若手奨励賞（アメリカ対癌協会）
+                                    <br> Arnold若手奨励賞（米国 Victor社）
+                                    <br> 中日文化賞（2003年、内藤記念財団）
+                                    <br> 義塾賞（2006年、慶應義塾大学）
+                                    <br> 名誉医学博士号（ルーマニアLuliu Hatieganu医科薬科大学）
+                                    <br> 文部科学大臣賞（2004年）
                                 </p>
-                            </li>
-                        </ul>
+                            </div>
+                        </div>
+                        <div class="time">
+                            <h4 class="title-sub">経　歴：</h4>
+                            <ul class="time-list">
+                                <li>
+                                    <p class="year">1971年：</p>
+                                    <p class="event">カリフォルニア大学、エール大学で博士研究員として分子遺伝学研究に従事。</p>
+                                </li>
+                                <li>
+                                    <p class="year">1977年：</p>
+                                    <p class="event">アリゾナ大学分子細胞学科教授に就任、ヒト細胞遺伝学の研究・教育活動に貢献。</p>
+                                </li>
+                                <li>
+                                    <p class="year">1983年：</p>
+                                    <p class="event">慶応義塾大学医学部分子生物学教授に就任、ヒト遺伝子マッピングやがん研究を開始。その後、１０年間、アリゾナ大学教授も兼任し、毎月、日米を往復して研究・教育活動に尽力</p>
+                                </li>
+                                <li>
+                                    <p class="year">2007年：</p>
+                                    <p class="event">
+                                        <br class="is_pc">慶応義塾大学医学部　定年退職。直後に慶応大学先導研・GSPセンターをつくば市に創設、ゲノム研究をさらに加速する。</p>
+                                </li>
+                                <li>
+                                    <p class="year">2015年：</p>
+                                    <p class="event">
+                                        <br class="is_pc">
+                                        <br class="is_pc"> 慶応義塾大学医学部　名誉教授
+                                        <br> 慶応義塾大学先導研　ゲノム・スーパー・パワー(GSP)センター　名誉所長
+                                        <br> 長浜バイオ大学　特別招聘教授
+                                        <br> 同志社大学　特別客員教授
+                                        <br>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="group clearfix">
+                    <div class="group pt25">
                         <h4 class="title-sub">その他：</h4>
                         <p>アリゾナ大学客員教授（アメリカ）、イル・ハチェガヌ医科薬科大学特別招聘教授（ルーマニア）浙江省医科大学名誉教授（中国、）中国医科大学名誉教授（中国）</p>
                     </div>
                 </div>
                 <div id="tab-2" class="tab-content">
-                    <h4 class="title-h4 is_sp">経　歴：</h4>
+                    <h4 class="title-sub is_sp">経　歴：</h4>
                     <ul class="time-list">
                         <li>
                             <p class="year">1974年：</p>
@@ -195,15 +197,15 @@ get_header(); ?>
                 <div class="main-img full-content">
                     <img src="<?php echo get_template_directory_uri(); ?>/common/images/technology/img_lab_pc.png" alt="">
                 </div>
-                <h3 class="title-h3">
+                <p>
                     当社の抗体ライブラリーは、一本鎖抗体を提示するファージディスプレイ型です。<br>
                     抗体遺伝子配列の種類は10の13-14乗になります。<br>
                     性能が飛躍的に向上したFab型抗体を提示するライブラリーの研究開発も進めています。
-                </h3>
+                </p>
             </div>
             <div class="post post01">
                 <h3 class="title-h3">抗体作製技術</h3>
-                <div class="post-group">
+                <div class="post-group pb0">
                     <div class="content">
                         <h4 class="title-h4 no-top">
                             抗体の特異性を利用した <br>
@@ -248,10 +250,11 @@ get_header(); ?>
             <div class="post post02">
                 <h3 class="title-h3">当社の抗体ライブラリー</h3>
                 <div class="post-group">
-                    <h4 class="title-h4 no-top abc">
+                    <h4 class="title-h4 no-top">
                         ヒトが一生で作り出す抗体のレパートリーに匹敵する<br class="is_pc">
                         広大なパターンを持つライブラリーとスクリーニングシステム
                     </h4>
+                    <p class="is_sp">また抗体を作製するためには、動物を免疫する方法と遺伝子組換え技術を応用した動物個体を使用しない方法に大別されます。</p>
                 </div>
                 <div class="content full-content">
                     <div class="description">
@@ -311,7 +314,7 @@ get_header(); ?>
             <div class="post post03">
                 <h3 class="title-h3">抗体スクリーニング法</h3>
                 <div class="post-group group08">
-                    <h4 class="title-h4 no-top">分子間相互作用測定装置 Octetによる<br class="is_pc">高親和性抗体クローン選別</h4>
+                    <h4 class="title-h4 no-top">分子間相互作用測定装置 Octetによる<br>高親和性抗体クローン選別</h4>
                     <p>基本的なスクリーニング法は、抗原と抗体ライブラリーを混合し、抗原に結合しない抗体提示ファージを洗浄・除去し抗原に結合したファージを回収します。この一連の操作をパンニングと呼びます。</p>
                     <p>抗原の固相化法・洗浄法に関する当社独自のノウハウを駆使し、高親和性抗体のスクリーニング効率を向上させています。また高親和性抗体を提示するファージはトリプシン消化により抗体部分を切断して確実に回収します。一般的な酸やアルカリ液では有用な高親和性抗体を提示するファージの回収率が低いので注意が必要です。回収したファージは大腸菌に再感染させ、ヘルパーファージの重感染によってファージタンパクを産生させ、新たな抗体提示ファージを調製し、次のパンニングに供します。</p>
                     <p>

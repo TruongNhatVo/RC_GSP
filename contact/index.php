@@ -21,8 +21,10 @@
                 </div>
                 <form class="form">
                     <div class="input-group">
-                        <label for="select" class="txt-label">お問い合わせ内容</label>
-                        <span class="require">Require</span>
+                        <div class="label-group">
+                            <label for="select" class="txt-label">お問い合わせ内容</label>
+                            <span class="require">Require</span>
+                        </div>
                         <div class="input">
                             <select id="select" required>
                                 <option value="option1">（お選びください）</option>
@@ -32,16 +34,20 @@
                         </div>
                     </div>
                     <div class="input-group">
-                        <label for="name" class="txt-label">氏名</label>
-                        <span class="require">Require</span>
+                        <div class="label-group">
+                            <label for="name" class="txt-label">氏名</label>
+                            <span class="require">Require</span>
+                        </div>
                         <div class="input input-name">
                             <input id="name" type="text" placeholder="姓" required>
                             <input type="text" placeholder="名" required>
                         </div>
                     </div>
                     <div class="input-group">
-                        <label for="for" class="txt-label">所属</label>
-                        <span class="require">Require</span>
+                        <div class="label-group">
+                            <label for="for" class="txt-label">所属</label>
+                            <span class="require">Require</span>
+                        </div>
                         <div class="input">
                             <input id="for" type="text" required>
                         </div>
@@ -53,15 +59,19 @@
                         </div>
                     </div>
                     <div class="input-group">
-                        <label for="email" class="txt-label">メールアドレス</label>
-                        <span class="require">Require</span>
+                        <div class="label-group">
+                            <label for="email" class="txt-label">メールアドレス</label>
+                            <span class="require">Require</span>
+                        </div>
                         <div class="input">
                             <input id="email" type="text" required>
                         </div>
                     </div>
                     <div class="input-group">
-                        <label for="email-comfirm" class="txt-label">メールアドレス（確認用）</label>
-                        <span class="require">Require</span>
+                        <div class="label-group">
+                            <label for="email-comfirm" class="txt-label">メールアドレス（確認用）</label>
+                            <span class="require">Require</span>
+                        </div>
                         <div class="input">
                             <input id="email-comfirm" type="text" required>
                         </div>
