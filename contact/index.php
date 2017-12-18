@@ -83,7 +83,7 @@
                             <label for="field" class="txt-label">記入欄</label>                            
                         </div>
                         <div class="input">
-                            <textarea id="field" rows="15"></textarea>
+                            <textarea id="field" rows="10"></textarea>
                         </div>
                     </div>
                     <div class="checkbox-group">

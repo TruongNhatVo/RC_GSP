@@ -1929,9 +1929,6 @@ footer .group .btn-small:nth-child(2) {
     .all-links .logo {
         padding-left: 0;
     }
-    .all-links .logo img {
-        width: 48%;
-    }
     .all-links .group .content {
         border-bottom: 0;
         padding: 10px 0 30px;
@@ -1984,9 +1981,12 @@ footer .group .btn-small:nth-child(2) {
     .contact .checkbox-group .input {
         font-size: 3.1vw;
     }
+    .contact .checkbox-group  .txt-label {
+        font-size: 2.9vw;
+    }
     .contact .checkbox-group span {
-        padding-right: 3%;
-        font-size: 2.5vw;
+        padding-right: 4vw;
+        font-size: 2.8vw;
     }
     .contact .checkbox-group .last {
         padding-right: 0;
@@ -2141,6 +2141,9 @@ footer .group .btn-small:nth-child(2) {
     }
     .local01 .thumbnail {
         text-align: center;
+    }
+    .local01 .thumbnail img {
+        width: 72vw;
     }
     .local01 .thumbnail-detail {
         padding: 20px 15px;
@@ -2344,7 +2347,7 @@ footer .group .btn-small:nth-child(2) {
     footer .group .btn-small:nth-child(1) {
         width: 100%;
         margin-left: 0;
-        margin-bottom: 10px;
+        margin-bottom: 5px;
     }
     footer .group .btn-small:nth-child(2) {
         width: 100%;
