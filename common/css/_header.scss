@@ -3,77 +3,68 @@
 ======================================*/
 
 header {
-    background: white;
-}
-
-header .container {
+  background: white;
+  .container {
     padding: 0;
-}
-
-header .container:after {
-    clear: both;
-    display: block;
-    content: '';
-    visibility: hidden;
-}
-
-header .logo,
-header nav {
+    &:after {
+      clear: both;
+      display: block;
+      content: '';
+      visibility: hidden;
+    }
+  }
+  .logo, nav {
     float: left;
-}
-
-header .logo {
+  }
+  .logo {
     width: 34%;
     padding: 20px 0 20px 7px;
-}
-
-header nav {
+  }
+  nav {
     width: 66%;
     text-align: right;
-}
-
-header .lng_menu {
+  }
+  .lng_menu {
     float: right;
-    margin-bottom: 10px;
-}
-
-header .lng_menu:after {
-    clear: both;
-    display: block;
-    content: '';
-    visibility: hidden;
-}
-
-header .lng_menu li {
-    float: right;
-}
-
-header .lng_menu li:last-child {
-    margin-right: 2px;
-}
-
-header .lng_menu a {
-    width: 78px;
-    vertical-align: top;
-    background: #0059B2;
-}
-
-header .lng_menu a:hover {
-    background: #0059B2 !important;
-    color: white;
-    border: 2px solid #0059B2;
-}
-
-header .mainNav li {
-    display: inline-block;
-    margin-right: 10px;
-}
-
-header .mainNav li:last-child {
-    display: none;
-}
-
-header .mainNav a {
-    font-size: 12px;
-    font-weight: bold;
+    margin-bottom: 25px;
+    &:after {
+      clear: both;
+      display: block;
+      content: '';
+      visibility: hidden;
+    }
+    li {
+      float: right;
+      &:last-child {
+        margin-right: 2px;
+      }
+    }
+    a {
+      width: 78px;
+      vertical-align: top;
+      background: #0059B2;
+      padding: 3px 0 1px;
+      &:hover {
+        background: #0059B2 !important;
+        color: white;
+        border: 2px solid #0059B2;
+      }
+    }
+  }
+  .mainNav {
+    li {
+      display: inline-block;
+      margin-right: 16px;
+      &:nth-child(6) {
+        margin-right: 0;
+      }
+      &:last-child {
+        display: none;
+      }
+    }
+    a {
+      font-size: 12px;
+      font-weight: bold;
+    }
+  }
 }

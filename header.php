@@ -48,19 +48,19 @@
                 </div>
                 <ul class="lng_menu is_pc">
                     <li><a href="<?php echo home_url(); ?>/" class="btn-lang">ENGLISH</a></li>
-                    <li><a href="<?php echo home_url(); ?>/" class="btn-lang">日本語</a></li>
+                    <li><a href="<?php echo home_url(); ?>/en/" class="btn-lang">日本語</a></li>
                 </ul>
                 <nav class="menuMain">
                     <ul class="mainNav">
                         <li><a href="<?php echo home_url(); ?>/">HOME</a></li>
                         <li><a href="<?php echo home_url(); ?>/#about">研究施設の方へ</a></li>
-                        <li><a href="<?php echo home_url(); ?>/#technology1">研究開発・技術情報</a></li>
+                        <li><a href="<?php echo home_url(); ?>/technology/">研究開発・技術情報</a></li>
                         <li><a href="<?php echo home_url(); ?>/faq/">よくある質問</a></li>
                         <li><a href="<?php echo home_url(); ?>/#company">会社案内</a></li>
                         <li><a href="<?php echo home_url(); ?>/contact/">お問い合わせ</a></li>
                         <li class="is_sp">
                             <a href="<?php echo home_url(); ?>/" class="btn-lang">日本語</a>
-                            <a href="<?php echo home_url(); ?>/" class="btn-lang">ENGLISH</a>
+                            <a href="<?php echo home_url(); ?>/en/" class="btn-lang">ENGLISH</a>
                         </li>
                     </ul>
                 </nav>

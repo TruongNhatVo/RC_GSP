@@ -22,6 +22,8 @@
 
 	    /* registry js */
 	    wp_enqueue_script( 'jquery-min', THEME_URL . '/common/js/jquery-3.2.1.min.js', false, true );
+	    wp_enqueue_script( 'crossfade', THEME_URL . '/common/js/crossfade.jquery.js', false, true );
+	    wp_enqueue_script( 'parallax', THEME_URL . '/common/js/jquery.parallax-scroll.js', false, true );
 	    wp_enqueue_script( 'magnific-popup', THEME_URL . '/common/js/jquery.magnific-popup.min.js', false, true );
 	    wp_enqueue_script( 'scripts', THEME_URL . '/common/js/scripts.js', false, true );
 

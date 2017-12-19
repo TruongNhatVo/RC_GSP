@@ -1,9 +1,29 @@
 <?php get_header(); ?>
       <div class="slide">
             <div class="container-full">
-                <img src="<?php echo get_template_directory_uri(); ?>/common/images/bg_main_pc.png" alt="">
-                <h2 class="title"><img src="<?php echo get_template_directory_uri(); ?>/common/images/bg_main_title.png" alt="人口抗体という強力なツールで 皆様の研究をサポートします。Get Superior Performance Antibodies"></h2>
-                <a href="#about" class="btn">研究機関の方へ</a>
+                <div class="bg_slider_sp is_sp">
+                    <img src="<?php echo get_template_directory_uri(); ?>/common/images/bg_main_sp.png" alt="">
+                </div>
+                <div class="main_slider">
+                    <div class="is_pc">
+                        <div id="bg_brn">
+                            <img src="<?php echo get_template_directory_uri(); ?>/common/images/bnr_01.png" alt="" data-parallax='{"y": 700}' class="bg_slider">
+                        </div>
+                        <div class="graph">
+                            <img src="<?php echo get_template_directory_uri(); ?>/common/images/graph_blur.png" alt="" class="graph_slider_blur">
+                            <img src="<?php echo get_template_directory_uri(); ?>/common/images/graph.png" alt="" class="graph_slider">
+                        </div>
+                    </div>
+                    <div class="title_slider">
+                        <div class="is_pc">
+                            <h2 class="title title_slider_01 fadeDown"><img src="<?php echo get_template_directory_uri(); ?>/common/images/bg_main_title_01.png" alt="人口抗体という強力なツールで 皆様の研究をサポートします。"></h2>
+                            <h2 class="title title_slider_02 fadeDown"><img src="<?php echo get_template_directory_uri(); ?>/common/images/bg_main_title_02.png" alt="Get Superior Performance Antibodies"></h2>
+                        </div>
+                        <img class="title_slider_sp is_sp" src="<?php echo get_template_directory_uri(); ?>/common/images/bg_main_title_sp.png" alt="人口抗体という強力なツールで 皆様の研究をサポートします。Get Superior Performance Antibodies">
+                        <img class="img_banner_title fadeDown" src="<?php echo get_template_directory_uri(); ?>/common/images/bg_main_title_03.png" alt="">
+                        <a href="#about" class="btn fadeDown">研究機関の方へ</a>
+                    </div>
+                </div>
             </div>
         </div>
         <!-- ./slide -->
@@ -41,7 +61,7 @@
                     <p class="txt-top">故・清水信義　慶應義塾大学名誉教授の意思を受け継ぐ最先端生命科学を最新の設備で継承、研究を重ねています。 </p>
                     <p class="txt-bt">私達は故・清水信義　慶應義塾大学名誉教授のご指導により独自開発したファージディスプレイ型抗体ライブラリーと抗原の特性に合わせた様々なスクリーニング技術を駆使して、作製が困難であった抗体を創出し、未知の領域に挑む皆様の研究をサポート します。</p>
                     <p class="sign">
-                        代表取締役　研究所長
+                        CEO &amp; CTO
                         <br>博士（理学）
                         <br>
                         <img src="<?php echo get_template_directory_uri(); ?>/common/images/img_sign.png" alt="高柳 淳">
@@ -61,7 +81,9 @@
                         <h3 class="title-h3">私たちは、ゲノム研究の第一人者、
 						<br> 故・清水信義氏の想いを受け継ぐ<br class="is_sp">研究機関です。
 					</h3>
-                        <p>清水先生は、日本のゲノム研究草分け的な存在です。 2015年に亡くなられるまで、私たちはその清水先生が直接設立、指導研究をされるための土台として、これらに必要なスクリーニング研究のバックアップを行ってまいりました。以降、先生の意思を受け継ぎ研究に携わる方々のサポートを同様に行っております。</p>
+                        <p>清水先生は、日本のみならず世界のヒトゲノム研究のスタートからリーダーとして第一線を歩んで来られました。1999年染色体22番まるごとの解読に成功しました。これはゲノムプロジェクトの最大の成果のひとつでした。翌年21番、さらに8番染色体解読に成功されました。先生の功績はゲノム解析だけではなく、パーキンソン病、自己免疫疾患、難聴、緑内障などの原因遺伝子を発見し、それらの機能解析に及びました。</p>
+						<p>2007年慶應大学医学部教授停年退職後も、ゲノムに秘められたGSP（ゲノム・スーパーパワー）の解明に向かって先生の研究への情熱は続きました。2015年74歳で亡くなられる直前まで燃えていました。私たちは、先生が直接設立、研究されるための土台として研究や研究者の支援を行ってきました。今後さらに先生の意思を受け継ぎ進めてまいります。
+</p>
                         <a href="<?php echo home_url(); ?>/technology/index.php#technology01" class="btn">清水先生と私たち</a>
                     </div>
                     <div class="avatar">
@@ -116,7 +138,7 @@
                         </li>
                         <li>
                             <p>代　表：</p>
-                            <p>清水　淑子</p>
+                            <p>高柳　淳</p>
                         </li>
                         <li>
                             <p>所在地：</p>

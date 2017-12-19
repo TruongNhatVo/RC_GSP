@@ -26,7 +26,7 @@
             </div>
         </footer>
         <div class="copyright">
-            <p class="tac">&copy;GSP Enterprise co., Ltd.</p>
+            <p class="tac">&copy;GSP Enterprise, Inc.</p>
         </div>
     </div>
     <!-- ./footer -->

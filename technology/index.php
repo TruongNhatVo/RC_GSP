@@ -1,9 +1,9 @@
-<?php 
+<?php
 /**
  ** Template Name: technology
- **/ 
-get_header(); ?>    
-    
+ **/
+get_header(); ?>
+
     <div class="breadcumb">
         <div class="container">
             <h2 class="title-h2-breadcumb">研究開発・技術情報</h2>
@@ -26,10 +26,13 @@ get_header(); ?>
             <div class="local01">
                 <div class="description">
                     <h3 class="title-h3">仮）））取締役だった清水信義は２５年間慶應大学医学部分子生物学教室教授でヒトゲノム研究の先頭にありました</h3>
-                    <p>仮）））取締役だった清水信義は２５年間慶應大学医学部分子生物学教室教授でヒトゲノム研究の先頭にありました</p>
+                    <p>1983年慶應義塾大学医学部に迎えられ、その後10年間、アリゾナ大学と慶応大の２カ所に研究室を持ち、月に1回往復して、研究と教育に励んだ。それぞれの研究室で異なる主要テーマを持ち、それぞれ競争的な研究費取り、結果を出した。1989年にヒトゲノム計画が国際的に始まった時メンバーとして活躍する基盤を作りあげていた。</p>
+
+					<p class="pr40">彼は遺伝子マッピングから増殖因子とその受容体、癌、遺伝子発現調節、細胞分裂、ゲノム、疾患、データベースなどの研究分野を一体化して597編の原著論文を発表した。2004年には清水研究室20周年記念シンポジウムを海外の関係する研究者を招待し、開催した。2007 年慶應大学を停年で退任するまで24年間大勢の仲間と切磋琢磨して、一流の研究を行ってきた。</p>
+
                     <p class="pr40">
-                        私たちは、清水先生の想いを受け継ぎ、未来のための研究を重ねつつ、 <br>
-                        清水先生は、慶応大学医学部教授を2007年3月に退任され、慶応大学名誉教授となられた。清水先生は1971年から米国へ渡っている。カリフォルニア大学、エール大学博士、研究員、アリゾナ大学の教授を歴任後、1983年に慶応大学医学部の分子生物学教室の。
+                        慶応大学名誉教授という肩書きをいただき、研究への情熱を持ち、つくばに慶應大学先端研GSPセンターを立ち上げ次のステップへと歩き始めた。
+                        その矢先、浜松で開かれた学会での特別講演の最中、脳出血で倒れた。３ヶ月の入院生活と２年余りの通院リハビリで研究室に復帰できた。清水研で独自に開発したヒト型人工抗体ライブラリーを用いた応用研究もスタートできた。しかし2015年６月永久の別れの瞬間が来てしまった。
                     </p>
                 </div>
                 <div class="about">
@@ -47,60 +50,70 @@ get_header(); ?>
             <div class="tabs-content full-content">
                 <ul class="tabs">
                     <li class="tab-link current" data-tab="tab-1">
-                        <h3 class="title-h3-sub">清水先生の経c歴について</h3></li>
+                        <h3 class="title-h3-sub">経歴について</h3></li>
                     <li class="tab-link" data-tab="tab-2">
-                        <h3 class="title-h3-sub">清水先生の主要研究成果</h3></li>
+                        <h3 class="title-h3-sub">主要研究成果</h3></li>
                 </ul>
                 <div id="tab-1" class="tab-content current">
                     <div class="clearfix">
                         <div class="time">
                             <div class="group">
-                                <h4 class="title-sub">経　歴：</h4>
+                                <h4 class="title-sub">出　生：</h4>
                                 <p class="event">1941年　大阪生まれ</p>
                             </div>
                             <div class="group">
-                                <h4 class="title-sub">学歴：</h4>
+                                <h4 class="title-sub">学　歴：</h4>
                                 <p class="event">1965年　名古屋大学理学部化学科卒業</p>
-                                <p class="event">1970年　名古屋大学大学院・理学研究科博士課程満了</p>
+                                <p class="event">1970年　名古屋大学大学院理学研究科博士課程修了</p>
                             </div>
                             <div class="group">
-                                <h4 class="title-sub">学位：</h4>
+                                <h4 class="title-sub">学　位：</h4>
                                 <p class="event">理学博士、名誉医学博士</p>
                             </div>
                             <div class="`group">
-                                <h4 class="title-sub">メダル・賞状・感謝状：   </h4>
+                                <h4 class="title-sub">受賞歴：</h4>
                                 <p class="event">
-                                    KROC賞（米国、KROC Foundation）
-                                    <br> 若手奨励賞（アメリカ対癌協会）
-                                    <br> Arnold若手奨励賞（米国 Victor社）
-                                    <br> 中日文化賞（2003年、内藤記念財団）
-                                    <br> 義塾賞（2006年、慶應義塾大学）
-                                    <br> 名誉医学博士号（ルーマニアLuliu Hatieganu医科薬科大学）
+                                    内藤記念奨励賞（1971年）
+                                    <br> 米国Kroc 賞（1977年）
+                                    <br> 米国対癌協会奨励賞（1978年）
+                                    <br> 米国NIH功労表彰（1983年）
+                                    <br> 日本人類遺伝学会賞（2000年）
+                                    <br> 中日文化賞（2003年）
                                     <br> 文部科学大臣賞（2004年）
+									<br>　慶應義塾賞（2007年）
                                 </p>
                             </div>
                         </div>
                         <div class="time">
-                            <h4 class="title-sub">経　歴：</h4>
+                            <h4 class="title-sub">職　歴：</h4>
                             <ul class="time-list">
+								<li>
+                                    <p class="year">1970年：</p>
+                                    <p class="event">名古屋大学理学部分子生物学研究施設助手</p>
+                                </li>
                                 <li>
                                     <p class="year">1971年：</p>
-                                    <p class="event">カリフォルニア大学、エール大学で博士研究員として分子遺伝学研究に従事。</p>
+                                    <p class="event">渡米、カリフォルニア大学サンデイゴ校、エール大学で博士研究員</p>
                                 </li>
                                 <li>
                                     <p class="year">1977年：</p>
-                                    <p class="event">アリゾナ大学分子細胞学科教授に就任、ヒト細胞遺伝学の研究・教育活動に貢献。</p>
+                                    <p class="event">アリゾナ大学分子細胞学科准教授更に教授及び癌生物学科兼担教授</p>
                                 </li>
                                 <li>
                                     <p class="year">1983年：</p>
-                                    <p class="event">慶応義塾大学医学部分子生物学教授に就任、ヒト遺伝子マッピングやがん研究を開始。その後、１０年間、アリゾナ大学教授も兼任し、毎月、日米を往復して研究・教育活動に尽力</p>
+                                    <p class="event">慶応義塾大学医学部分子生物学教室教授及び理工学部環境情報学部兼担教授</p>
                                 </li>
                                 <li>
                                     <p class="year">2007年：</p>
                                     <p class="event">
-                                        <br class="is_pc">慶応義塾大学医学部　定年退職。直後に慶応大学先導研・GSPセンターをつくば市に創設、ゲノム研究をさらに加速する。</p>
+                                        <br class="is_pc">慶應義塾大学医学部定年退職し、慶應義塾大学名誉教授。<br />慶應義塾大学先導研GSPセンターを創設し、名誉所長</p>
                                 </li>
-                                <li>
+								<li>
+                                    <p class="year">その他：</p>
+                                    <p class="event">
+                                        <br class="is_pc">長浜バイオ大学特別招聘教授、同志社大学特別客員教授、アリゾナ大学客員教授，ハチュガニ医科薬科大学特別招聘教授、中国医科大学名誉教授、浙江医科大学名誉教授</p>
+                                </li>
+                                <!--<li>
                                     <p class="year">2015年：</p>
                                     <p class="event">
                                         <br class="is_pc">
@@ -110,13 +123,13 @@ get_header(); ?>
                                         <br> 同志社大学　特別客員教授
                                         <br>
                                     </p>
-                                </li>
+                                </li>-->
                             </ul>
                         </div>
                     </div>
                     <div class="group pt25">
                         <h4 class="title-sub">その他：</h4>
-                        <p>アリゾナ大学客員教授（アメリカ）、イル・ハチェガヌ医科薬科大学特別招聘教授（ルーマニア）浙江省医科大学名誉教授（中国、）中国医科大学名誉教授（中国）</p>
+                        <p>ヒトの遺伝学（東京化学同人）、遺伝子治療革命（日本テレビ）、DNAサイエンス（医学書院）、DNAサイエンスラボラトリー（医学書院）、ヒトゲノムの分子遺伝学（医学書院）、ヒトゲノム計画の虚と実（ビジネス社）、ヒトゲノムワールド（PHP研究所）、ヒトゲノム＝生命の設計図を読む（岩波科学ライブラリー）、ゲノムを極める（講談社）など。</p>
                     </div>
                 </div>
                 <div id="tab-2" class="tab-content">
@@ -176,12 +189,15 @@ get_header(); ?>
                             <p class="event">ヒトゲノム計画完了</p>
                         </li>
                     </ul>
-                    <h4 class="year txt-small title-sub">1983年～2015年：</h4>
+                    <h4 class="year txt-small title-sub">学術誌編集委員：</h4>
                     <p class="event txt-small">
-                        慶應義塾大学　先導研GSPセンター
-                        <br> Mutation View：疾病遺伝子の変異・多型のデータベース
-                        <br> CancerPro View：がん関連タンパク質/遺伝子データベース
-                        <br> KM-parkin-DB：パーキンソン病に特化した遺伝子変異データベース
+                        Genomics, Mammalian Genome,Somatic Cell Molecular Genetics
+						<br />Cytogenetics Cell Genetics, J. Exp. Zoology (Executive Editor)
+						<br />Methods , J. Human Genetics, Expert Review in Molecular Medicine
+						<br />In Sight (Science), Encyclopedia of the Human Genome
+						<br />Research Signpost Cancer Science, Chinese J. Medical Genetics
+						<br />Human Mutation (Communicating Editor), Gene Therapy and Regulation
+
                     </p>
                 </div>
             </div>
@@ -221,7 +237,7 @@ get_header(); ?>
                         </p>
                     </div>
                     <div class="zoom-image beforeEl">
-                        <a class="zoom" href="#gallery02"><img src="<?php echo get_template_directory_uri(); ?>/common/images/technology/img_struture01.png" alt="" class="to-zoom"></a>
+                        <a class="zoom" href="#gallery02"><img src="<?php echo get_template_directory_uri(); ?>/common/images/technology/_img_struture01.png" alt="" class="to-zoom"></a>
                         <img src="<?php echo get_template_directory_uri(); ?>/common/images/technology/ico_zoom.png" alt="" class="zoom-icon">
                     </div>
                     <div id="gallery02" class="hidden">
@@ -284,7 +300,7 @@ get_header(); ?>
                         </div>
                     </div>
                     <div class="thumbnail">
-                        <a href="#gallery" class="zoom"><img src="<?php echo get_template_directory_uri(); ?>/common/images/technology/img_struture02.png" alt="" class="to-zoom"></a>
+                        <a href="#gallery" class="zoom"><img src="<?php echo get_template_directory_uri(); ?>/common/images/technology/_img_struture02.png" alt="" class="to-zoom"></a>
                         <img src="<?php echo get_template_directory_uri(); ?>/common/images/technology/ico_zoom.png" alt="" class="zoom-icon">
                     </div>
                     <div id="gallery" class="hidden">
@@ -333,7 +349,7 @@ get_header(); ?>
                     <h4 class="title-h4">クロス法、ガイド分子法など<br class="is_sp">様々な方式に適用可能</h4>
                     <p>試験管内でスクリーングする利点を生かし、似た抗原に結合するものを除去する「サブトラクション法」や、逆に同一エピトープ（抗原内の抗体結合部位）にも結合するものを選抜する「クロス選抜法」を取り入れることも可能です。また既存の抗体が結合する部位の近傍に結合するファージを単離するガイド分子法も適応できます。</p>
                 </div>
-            </div>  
+            </div>
         </div>
     </div>
 
