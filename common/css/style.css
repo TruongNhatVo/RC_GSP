@@ -344,28 +344,85 @@ header .mainNav a {
 
 /* ----------- slide --------- */
 .slide {
-  background: #F0F0E1;
+    background: #F0F0E1;
+}
+
+.slide .title {
+    position: absolute;
+    text-align: center;
+    top: calc(50% - 54px);
+    left: 0;
+    right: 0;
 }
 
 .slide .btn {
-  position: absolute;
-  background: #0059B2;
-  bottom: 12%;
-  left: 0;
-  right: 0;
-  width: 171px;
-  margin: auto;
-  padding: 14px 0;
+    background: #0059B2;
+    width: 171px;
+    position: absolute;
+    left: 50%;
+    padding: 14px 0;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
 }
 
-.slide .main_slider {
+
+/* =========================
+  ANIMATION
+========================= */
+
+.slide .main-slide {
   position: relative;
-  width: 100%;
-  height: 508px;
+  top: 0;
+  left: 0;
+  height: 507px;
   overflow: hidden;
 }
 
-.slide .main_slider .bg_slider {
+.slide .main-slide .animate {
+  position: absolute;
+}
+
+.slide .main-slide .animate01 {
+  top: -110px;
+}
+
+.slide .main-slide .animate02, .slide .main-slide .animate03, .slide .main-slide .animate04, .slide .main-slide .animate05, .slide .main-slide .animate06 {
+  opacity: 0;
+}
+.slide .main-slide .animate02 {
+  top: 10px;
+}
+.slide .main-slide .animate03 {
+  top: 80%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.slide .main-slide .animate04 {
+  bottom: 125px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.slide .main-slide .animate05 {
+  right: 100px;
+  top: 55%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.slide .main-slide .animate06 {
+  bottom: 12%;
+  opacity: 0;
+}
+
+/* .slide .main_slider .bg_slider {
   position: absolute;
   top: 0;
   left: 0;
@@ -458,7 +515,7 @@ header .mainNav a {
 .slide .graph_slider_blur {
   z-index: 9;
 }
-
+ */
 /* ----------- local01  --------- */
 .local01 {
   padding-bottom: 30px;
@@ -1780,7 +1837,7 @@ footer .detail .btn {
     font-size: 3.5vw;
     padding: 10px 0;
   }
-  .slide .title_slider_sp {
+  .slide .no-slide .title {
     width: 80%;
     margin: auto;
     position: absolute;

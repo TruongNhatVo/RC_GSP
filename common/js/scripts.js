@@ -26,6 +26,57 @@ $(window).on('resize load', function() {
 });
 
 
+// first view animation when window on load
+$(window).on('load', function() {
+    $('.animate01').animate({
+        top: 40,
+        opacity: 0.4
+    }, {
+        duration: 1000, //time to run animation
+        // When first completed, the second will continue
+        complete: function() {
+            $('.animate01').animate({ opacity: 0.15 });
+            $('.animate02').animate({
+                opacity: 0.3
+            }, {
+                duration: 800,
+                complete: function() {
+                    $('.animate02').delay(200).animate({ opacity: 0.8 });
+                    $('.animate03').animate({
+                        top: 50 + '%',
+                        opacity: 1
+                    }, {
+                        duration: 500,
+                        complete: function() {
+                            $('.animate04').delay(200).animate({
+                                bottom: 166,
+                                opacity: 1
+                            }, {
+                                duration: 500,
+                                complete: function() {
+                                    $('.animate05').delay(200).animate({
+                                        right: 130,
+                                        top: 55 + '%',
+                                        opacity: 1
+                                    }, {
+                                        duration: 500,
+                                        complete: function() {
+                                            $('.animate06').delay(200).animate({
+                                                opacity: 1
+                                            });
+                                        }
+                                    })
+                                }
+                            })
+                        }
+                    });
+                },
+            });
+        }
+    });
+});
+
+
 $(document).ready(function() {
     if (win.width() > 780) {
         var target = $('#bg_brn');
@@ -99,6 +150,7 @@ $(document).ready(function() {
             }
         }).magnificPopup('open');
     });
+
     /* Scrool bookmark
     -------------------------------------- */
     // smooth scroll
@@ -137,4 +189,5 @@ $(document).ready(function() {
                 }
             }
         });
+
 })

@@ -1,28 +1,18 @@
 <?php get_header(); ?>
       <div class="slide">
             <div class="container-full">
-                <div class="bg_slider_sp is_sp">
-                    <img src="<?php echo get_template_directory_uri(); ?>/common/images/bg_main_sp.png" alt="">
+                <div class="main-slide is_pc">
+                    <img src="<?php echo get_template_directory_uri(); ?>/common/images/bnr_01.png" alt="" class="animate animate01">
+                    <img src="<?php echo get_template_directory_uri(); ?>/common/images/graph.png" alt="" class="animate animate02">
+                    <img src="<?php echo get_template_directory_uri(); ?>/common/images/bg_main_title_01.png" alt="" class="animate animate03">
+                    <img src="<?php echo get_template_directory_uri(); ?>/common/images/bg_main_title_02.png" alt="" class="animate animate04">
+                    <img src="<?php echo get_template_directory_uri(); ?>/common/images/bg_main_title_03.png" alt="" class="animate animate05">
+                    <a href="#about" class="btn animate06">研究機関の方へ</a>
                 </div>
-                <div class="main_slider">
-                    <div class="is_pc">
-                        <div id="bg_brn">
-                            <img src="<?php echo get_template_directory_uri(); ?>/common/images/bnr_01.png" alt="" data-parallax='{"y": 700}' class="bg_slider">
-                        </div>
-                        <div class="graph">
-                            <img src="<?php echo get_template_directory_uri(); ?>/common/images/graph_blur.png" alt="" class="graph_slider_blur">
-                            <img src="<?php echo get_template_directory_uri(); ?>/common/images/graph.png" alt="" class="graph_slider">
-                        </div>
-                    </div>
-                    <div class="title_slider">
-                        <div class="is_pc">
-                            <h2 class="title title_slider_01 fadeDown"><img src="<?php echo get_template_directory_uri(); ?>/common/images/bg_main_title_01.png" alt="人口抗体という強力なツールで 皆様の研究をサポートします。"></h2>
-                            <h2 class="title title_slider_02 fadeDown"><img src="<?php echo get_template_directory_uri(); ?>/common/images/bg_main_title_02.png" alt="Get Superior Performance Antibodies"></h2>
-                        </div>
-                        <img class="title_slider_sp is_sp" src="<?php echo get_template_directory_uri(); ?>/common/images/bg_main_title_sp.png" alt="人口抗体という強力なツールで 皆様の研究をサポートします。Get Superior Performance Antibodies">
-                        <img class="img_banner_title fadeDown" src="<?php echo get_template_directory_uri(); ?>/common/images/bg_main_title_03.png" alt="">
-                        <a href="#about" class="btn fadeDown">研究機関の方へ</a>
-                    </div>
+                <div class="no-slide is_sp">
+                    <img src="<?php echo get_template_directory_uri(); ?>/common/images/bg_main_sp.png" alt="">
+                    <h2 class="title"><img src="<?php echo get_template_directory_uri(); ?>/common/images/bg_main_title_sp.png" alt="人口抗体という強力なツールで 皆様の研究をサポートします。Get Superior Performance Antibodies"></h2>
+                    <a href="#about" class="btn">研究機関の方へ</a>
                 </div>
             </div>
         </div>
